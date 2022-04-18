@@ -65,7 +65,7 @@ async def sinstall(event):
         return await event.edit('**ShreedUserBot Plugin Mağazası**\n__Versiyon 1.0__\n\n**⚠️ Xəta:** `Zəhmət olmasa sadəcə rəqəm yazın. Əgər plugin axtarmaq istəyirsinizsə .store komandasını işlədin.`')
     
     await event.edit('**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n`🔎 Plugin\'i gətirirəm... Biraz gözlə.`')
-    plugin = await event.client.get_messages('@Shreedplugin', ids=plugin)
+    plugin = await event.client.get_messages('@fastplugins', ids=plugin)
     await event.edit(f'**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n`✅ {plugin.file.name} plugini gətirildi!`\n`⬇️ Plugini yükləyirəm... Biraz gözləyin.`')
     dosya = await plugin.download_media('./userbot/modules/')
     await event.edit(f'**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n`✅ {plugin.file.name} yükləmə uğurludur!`\n`⬇️ Plugini yükləyirəm... Biraz gözləyin.`')
