@@ -35,7 +35,7 @@
         
         "__fast": {
             "NEED_PLUGIN": "Zəhmət olmasa bir FAST modulu adı yazın.",
-            "NEED_MODULE": "Zəhmət olmasa hansı FAST modulu üçün kömək istədiyinizi qeyd edin !!\nİstifadəsi: .shreed <modul adı>"
+            "NEED_MODULE": "Zəhmət olmasa hansı FAST modulu üçün kömək istədiyinizi qeyd edin !!\nİstifadəsi: .fast <modul adı>"
         },
 
         "__helpme": {
