@@ -253,7 +253,7 @@
         },
         "galeri": {
             "ADDED_LIST": "`Surat navbatga qo'yildi.`",
-            "INVALID_URL": "`Siz yaroqsiz rasmning URL manzilini kiritdingiz.  Agar siz foydalanish haqida hech qanday tasavvurga ega bo'lmasangiz: ` `.shreed galeri` `yozing.`",
+            "INVALID_URL": "`Siz yaroqsiz rasmning URL manzilini kiritdingiz.  Agar siz foydalanish haqida hech qanday tasavvurga ega bo'lmasangiz: ` `.fasy galeri` `yozing.`",
             "EXAMPLE": "`Iltimos hohlagan bir rasm manziliga kiring. Misol uchun: ` `.galeriyaga qo'shish https://i.resimyukle.xyz/7Qbbc9.jpeg`",
             "LIST": "Siz navbatga qo'yilgan fotosuratlar",
             "REMOVED": "**Keyingi rasm muvaffaqiyatli olib tashlandi**",
