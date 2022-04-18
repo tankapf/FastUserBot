@@ -1,4 +1,4 @@
-# Shreed User Bot
+# FASTUSERBOR #
 
 import threading
 from sqlalchemy import func, distinct, Column, String, UnicodeText, Integer
