@@ -234,7 +234,7 @@ for module_name in ALL_MODULES:
 
 LOGS.info("Botunuz işleyir! Hansısa söhbete  .alive yazaraq Test ede bilersiz!."
           " Kömeye ehtiyacınız varsa, destek qrupuna gelin: t.me/FastSupp")
-LOGS.info(f"Bot versiyası: Shreed {SHREED_VERSION}")
+LOGS.info(f"Bot versiyası: FAST {FAST_VERSION}")
 
 """
 if len(argv) not in (1, 3, 4):
