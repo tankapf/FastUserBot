@@ -77,6 +77,6 @@ async def get_users(event):
             f = f + 1
     return await fast.edit(f"**Dəvət Yekunlaşdı** \n\n• Uğurla nəticələnən dəvətlər `{s}` \n• Uğursuz Dəvətlər `{f}` ")
 
-CmdHelp('add').add_command(ve
-    'add', ' <istifadəçilərin götürüləcəyi qrupun linki>', 'Qruplardan asanlıqla user daşımaq :D\n@DeveloperSH'
+CmdHelp('add').add_command(
+    'add', ' <istifadəçilərin götürüləcəyi qrupun linki>'
 ).add()
