@@ -34,7 +34,7 @@
         },
         "__fast": {
             "NEED_PLUGIN": "Iltimos ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 moduli nomini ko'rsating.",
-            "NEED_MODULE": "Iltimos qaysi ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 moduli bilan yordam olishni xohlayotganingizni ko'rsating !!\nMasalan: .shreed <modul nomi>"
+            "NEED_MODULE": "Iltimos qaysi ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 moduli bilan yordam olishni xohlayotganingizni ko'rsating !!\nMasalan: .fast <modul nomi>"
         },
         "__helpme": {
             "NO_BOT": "`Bot ishlamayapti!  Bot Token va foydalanuvchi nomini to'g'ri o'rnating.  Modul to'xtatildi.`"
