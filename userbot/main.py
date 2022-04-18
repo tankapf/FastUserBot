@@ -141,7 +141,7 @@ def extractCommands(file):
 try:
     bot.start()
     idim = bot.get_me().id
-    fastbl = requests.get('https://raw.githubusercontent.com/fastUserBot/FastUserBot/main/shreedblacklist.json').json()
+    fastbl = requests.get('https://raw.githubusercontent.com/FastUserBot/FastUserBot/main/fastblacklist.json').json()
     if idim in fastbl:
         bot.disconnect()
 
