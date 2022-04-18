@@ -62,7 +62,7 @@ async def sinstall(event):
     try:
         plugin = int(plugin)
     except:
-        return await event.edit('**ShreedUserBot Plugin Mağazası**\n__Versiyon 1.0__\n\n**⚠️ Xəta:** `Zəhmət olmasa sadəcə rəqəm yazın. Əgər plugin axtarmaq istəyirsinizsə .store komandasını işlədin.`')
+        return await event.edit('**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n**⚠️ Xəta:** `Zəhmət olmasa sadəcə rəqəm yazın. Əgər plugin axtarmaq istəyirsinizsə .store komandasını işlədin.`')
     
     await event.edit('**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n`🔎 Plugin\'i gətirirəm... Biraz gözlə.`')
     plugin = await event.client.get_messages('@fastplugins', ids=plugin)
