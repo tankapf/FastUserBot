@@ -11,4 +11,4 @@ with TelegramClient(
     session_str = client.session.save()
     s_m = client.send_message("me", session_str)
     print('String Session kayıtlı mesajlara qeyd edildi.')
-    print('Herokuya keçerək deploya davam edin.\n\n@ShreedUserBot ❗')
+    print('Herokuya keçerək deploya davam edin.\n\n@TheFastUserBot ❗')
