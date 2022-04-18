@@ -1,18 +1,18 @@
 {
-  "name": "Shreed User Bot",
+  "name": "FastUserBot",
   "description": "Telegramdan əyləncəli və rahat işlətmək üçün telegram user bot’u",
-  "logo": "https://telegra.ph/file/8149422f5fc563f104821.jpg",
+  "logo": "https://telegra.ph/file/263cc6bbc34d4eaeef71b.jpg",
   "keywords": [
     "telegram",
     "userbot",
-	"shreed",
+	"fast",
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ShreedUserBot/ShreedUserBot",
+  "repository": "https://github.com/FastUserBot/FastUserBot",
   "website":   "",
-  "success_url": "https://t.me/shreeduserbot",
+  "success_url": "https://t.me/fastsupp",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -40,7 +40,7 @@
       "required": true
     },
     "HEROKU_MEMEZ": {
-      "description": "Toxunmayın!.",
+      "description": "Bilmirsənsə Dəymə",
       "value": "True",
       "required": true
     },
@@ -53,8 +53,8 @@
       "required": true
     },
     "UPSTREAM_REPO_URL": {
-      "description": "Toxunmayın!.",
-      "value": "https://github.com/ShreedUserBot/ShreedUserBot",
+      "description": "Bilmirsənsə Dəymə",
+      "value": "https://github.com/FastUserBot/FastUserBot",
       "required": true
     },
     "COUNTRY": {
@@ -68,7 +68,7 @@
       "required": false
     },
     "TZ": {
-      "description": "Nə işə yaradığın bilmirsənsə qurcalama ;)",
+      "description": "Nə işə yaradığın bilmirsənsə qurcalama əl vurma",
       "value": "Asia/Baku",
       "required": true  
     },
@@ -87,7 +87,7 @@
       "required": false
     },
     "BOTLOG": {
-      "description": "# TOXUNMA #",
+      "description": "ℹ️ TOXUNMAℹ️",
       "value": "False"
     },
     "BOT_USERNAME": {
@@ -217,11 +217,11 @@
     },
     "PAKET_ISMI": {
       "description": "Dızla komandası paket adını yazın. Varsayılan olaraq @ShreedUserBot'dur Toxunmamağınız tövsiyə olunur",
-      "value": "@ShreedUserBot paketi",
+      "value": "@TheFastUserBot paketi",
       "required": false
     },
     "AVTO_QATILMA": {
-      "description": "Toxunmayın!.",
+      "description": "Toxunma",
       "value": "True",
       "required": true
     },
