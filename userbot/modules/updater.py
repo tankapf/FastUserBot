@@ -118,7 +118,7 @@ async def upstream(ups):
         await ups.edit(LANG['FORCE_UPDATE'])
     else:
         await ups.edit(LANG['UPDATING'])
-    # ShreedUserBot
+    # FastUserBot
     if HEROKU_APIKEY is not None:
         import heroku3
         heroku = heroku3.from_key(HEROKU_APIKEY)
@@ -163,7 +163,7 @@ async def upstream(ups):
             repo.git.reset("--hard", "FETCH_HEAD")
         await update_requirements()
         await ups.edit(LANG['SUCCESSFULLY'])
-        # ShreedUserBot
+        # FastUserBot
         args = [sys.executable, "main.py"]
         execle(sys.executable, *args, environ)
         return
