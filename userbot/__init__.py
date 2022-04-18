@@ -148,7 +148,7 @@ TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
 CLEAN_WELCOME = sb(os.environ.get("CLEAN_WELCOME", "True"))
 
 # Last.fm 
-BIO_PREFIX = os.environ.get("BIO_PREFIX", "@ShreedUserBot | ")
+BIO_PREFIX = os.environ.get("BIO_PREFIX", "@TheFastUserBot | ")
 DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
@@ -185,7 +185,7 @@ PM_AUTO_BAN_LIMIT = int(os.environ.get("PM_AUTO_BAN_LIMIT", 4))
 SPOTIFY_DC = os.environ.get("SPOTIFY_DC", None)
 SPOTIFY_KEY = os.environ.get("SPOTIFY_KEY", None)
 
-PAKET_ISMI = os.environ.get("PAKET_ISMI", "@ShreedUserBot Paketi")
+PAKET_ISMI = os.environ.get("PAKET_ISMI", "@TheFastUserBot Paketi")
 
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 
