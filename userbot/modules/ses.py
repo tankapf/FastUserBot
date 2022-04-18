@@ -7,7 +7,7 @@ from userbot.cmdhelp import CmdHelp
 
 
 @register(outgoing=True, pattern="^.ses kisi")
-async def shreed(event):
+async def fast(event):
   reply = await event.get_reply_message()
   if not reply:
     await event.edit("Bir mesaja cavab verin.")
@@ -39,7 +39,7 @@ async def shreed(event):
         
         
 @register(outgoing=True, pattern="^.ses qadin")
-async def shreed(event):
+async def fast(event):
   reply = await event.get_reply_message()
   if not reply:
     await event.edit("Bir mesaja cavab verin.")
