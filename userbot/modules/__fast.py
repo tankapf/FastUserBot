@@ -19,7 +19,7 @@ LANG = get_value("__fast")
 # ████████████████████████████████ #
 
 @register(outgoing=True, pattern="^.fast(?: |$)(.*)")
-async def shreed(event):
+async def fast(event):
     """ necesen """
     args = event.pattern_match.group(1).lower()
     if args:
