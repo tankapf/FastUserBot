@@ -49,7 +49,7 @@ AFKSTR = [
     "▪▫Sahibim gəlir gözlə▫▪.",
     "Hal-hazırda sahibim burada deyil❗.",
     "💠Salam, uzaq mesajıma xoş gəldiniz💠, sizə necə kömək edə bilərəm?",
-    "Mən sahibimin xüsusi botuyam!, sizdə bot istəyirsizsə: ⚜ @ShreedUserBot ⚜ qur.",
+    "Mən sahibimin xüsusi botuyam!, sizdə bot istəyirsizsə: ⚜ @TheFastUserBot ⚜ qur.",
     "Hal hazırda burdan çoox uzaqdayam.\nQışqırsan bəlkə eşitdim.",
     "ℹBu tərəfə gedirəm\n🔜",
     "ℹBu tərəfə gedirəm\n🔙",
@@ -65,7 +65,7 @@ AFKSTR = [
 UNAPPROVED_MSG = ("`Hey,` {mention}`! Bu bir bot. Narahat olma.\n\n`"
                   "`Sahibim sənə PM atma icazəsi verməyib. `"
                   "`Zəhmət olmasa sahibimin aktiv olmağını gözləyin, o adətən PM'ləri qəbul edir.\n\n`"
-                  "`Bildiyim qədəri ilə o dəlilərə PM atma icazəsi vermir.`\n@ShreedUserBot `Quraraq sənində belə bir botun ola bilər :)`")
+                  "`Bildiyim qədəri ilə o dəlilərə PM atma icazəsi vermir.`\n@TheFastUserBot `Quraraq sənində belə bir botun ola bilər :)`")
 
 DB = connect("learning-data-root.check")
 CURSOR = DB.cursor()
