@@ -150,13 +150,13 @@ async def raw(event):
 CmdHelp('misc').add_command(
     'random', '<əşya1> <əşya2>', 'Yazdığınız əşyalardan random birini seçər', 'random ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Əla İşləyir'
 ).add_command(
-    'sleep', '<vaxt>', 'ShreedUserBot\'u yazdığınız saniyə qədər yatızdırar', 'sleep 20'
+    'sleep', '<vaxt>', 'FastUserBot\'u yazdığınız saniyə qədər yatızdırar', 'sleep 20'
 ).add_command(
     'shutdown', None, 'Botu Söndürər.'
 ).add_command(
-    'repo', None, 'ShreedUserBot\'un GitHub reposunun linki.'
+    'repo', None, 'FastUserBot\'un GitHub reposunun linki.'
 ).add_command(
-    'readme', None, 'ShreedUserBot\'un GitHub\'dakı README.md faylının linki.'
+    'readme', None, 'FastUserBot\'un GitHub\'dakı README.md faylının linki.'
 ).add_command(
     'creator', None, 'Bu botu kim hazırlayıb?'
 ).add_command(
