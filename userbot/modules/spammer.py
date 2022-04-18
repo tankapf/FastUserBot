@@ -26,7 +26,7 @@ async def tmeme(e):
 
 @register(outgoing=True, pattern="^.spam")
 async def spammer(e):
-    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+    if not e.text[0].isfast() and e.text[0] not in ("/", "#", "@", "!"):
         message = e.text
         messageSplit = message.split(" ", 2)
         counter = int(messageSplit[1])
@@ -42,7 +42,7 @@ async def spammer(e):
                                
 @register(outgoing=True, pattern="^.bigspam")
 async def bigspam(e):
-    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+    if not e.text[0].isfast() and e.text[0] not in ("/", "#", "@", "!"):
         message = e.text
         messageSplit = message.split(" ", 2)
         counter = int(messageSplit[1])
@@ -60,7 +60,7 @@ async def bigspam(e):
         
 @register(outgoing=True, pattern="^.picspam")
 async def tiny_pic_spam(e):
-    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+    if not e.text[0].isfast() and e.text[0] not in ("/", "#", "@", "!"):
         message = e.text
         text = message.split()
         counter = int(text[1])
@@ -78,7 +78,7 @@ async def tiny_pic_spam(e):
 
 @register(outgoing=True, pattern="^.delayspam")
 async def delayspammer(e):
-    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+    if not e.text[0].isfast() and e.text[0] not in ("/", "#", "@", "!"):
         message = e.text
         messageSplit= message.split(" ", 3)
         spam_delay = float(messageSplit[1])
@@ -108,5 +108,5 @@ CmdHelp('spammer').add_command(
 ).add_command(
     'delayspam', '<gecikmə> <miqdar> <mətn>', 'Verilən miqdar və verilən gecikmə ilə gecikməli spam edər.'
 ).add_warning(
-    'Diqqət Siz Spam həyata keçirərkən hesabınızın limitə düşmə riskini gözə alırsınız bundan Shreed User Bot komandası məsuliyət daşımır!!'
+    'Diqqət Siz Spam həyata keçirərkən hesabınızın limitə düşmə riskini gözə alırsınız bundan FastUserBot komandası məsuliyət daşımır!!'
 ).add()
