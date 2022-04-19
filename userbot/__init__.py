@@ -288,6 +288,9 @@ with bot:
         try:
             bot(JoinChannelRequest("@FastSupp"))
             bot(JoinChannelRequest("@FastPlugins"))
+            bot(JoinChannelRequest("@FastSohbet"))
+            bot(JoinChannelRequest("@FastResmi"))
+            bot(JoinChannelRequest("@TheFastUserBot"))
         except:
             pass
 
