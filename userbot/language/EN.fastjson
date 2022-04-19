@@ -260,7 +260,7 @@
             "NEED_NUMBER": "Please indicate the order of the image. Example:",
             "WORKING": "`The gallery is already working.`",
             "STARTED": "`The gallery is working`",
-            "NEED_PHOTO": "You need to add photos for the gallery work. If you do not know how to add it, you may know about use with the .alpha galeri",
+            "NEED_PHOTO": "You need to add photos for the gallery work. If you do not know how to add it, you may know about use with the .fast galeri",
             "STOPPED": "`The Gallery is stopped!`",
             "ALREADY_STOP": "`Gallery isn't working anyway. `",
             "INVALID": "**Unknown command** Usage:\n\nAdd a photo to the Gallery: `.galeri ekle https://i.resimyukle.xyz/7Qbbc9.jpeg`\nSee the gallery list: `.galeri liste `\nDeleting an ordinary photograph: `.galeri sil <number>`"
@@ -542,7 +542,7 @@
             "NOT_FOUND": "folder not found.",
             "GIT_ERROR": "Git error!",
             "NOT_GIT": "folder does not look like a git repo. \nBut you can solve this problem by forcibly updating the bot with the .update now command.",
-            "INVALID_BRANCH": "**[UPDATER]: * * ` I think you've modified the Alpha bot and you're using your own branch.\nThis confuses the Updater,\nWhere will the update be pulled?\nPlease use the Alpha bot from the official repo.`",
+            "INVALID_BRANCH": "**[UPDATER]: * * ` I think you've modified the FAST bot and you're using your own branch.\nThis confuses the Updater,\nWhere will the update be pulled?\nPlease use the Alpha bot from the official repo.`",
             "UPDATE": "\n`Your bot` **completely up to date!** `Branch:` **{}**\n",
             "WAS_UPDATE": "New update available for ** { }!\n\nChanges: **\n ` {} `",
             "BIG": "`The change list is too large, you should display it as a file.`",
