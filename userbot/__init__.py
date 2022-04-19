@@ -304,7 +304,7 @@ with bot:
             if not event.message.from_id == uid:
                 await event.reply(f'`Salam mən` 𝙁𝘼𝙎𝙏 𝙐𝙎𝙀𝙍𝘽𝙊𝙏`! Mən sahibimə (`@{me.username}`) kömək etmək üçün varam, yəni sənə kömək edə bilmərəm :( Amma səndə 𝙁𝘼𝙎𝙏 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 qura bilərsən Dəstək qrupumuza gəl` @FastSupp')
             else:
-                await event.reply(f'`𝚂𝙷𝚁𝙴𝙴𝙳 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 💥`')
+                await event.reply(f'`FastUserBot 🔋`')
 
         @tgbot.on(InlineQuery)  # pylint:disable=E0602
         async def inline_handler(event):
