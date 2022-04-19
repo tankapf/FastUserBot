@@ -261,7 +261,7 @@
             "NEED_NUMBER": "Iltimos rasmning tartibini ko'rsating.  Namuna:",
             "WORKING": "`Hozirda galereya ishlayapti.`",
             "STARTED": "`Galeriya ish faoliyatini boshladi.`",
-            "NEED_PHOTO": "Galeriya ish faoliyatini boshlashi uchun rasm yuklashingiz kerakdir. Yuklashni bilmasangiz agar .alpha galeri ile kullanım hakkında bilgi sahibi olabilirsiniz.",
+            "NEED_PHOTO": "Galeriya ish faoliyatini boshlashi uchun rasm yuklashingiz kerakdir. Yuklashni bilmasangiz agar .fast galeri ile kullanım hakkında bilgi sahibi olabilirsiniz.",
             "STOPPED": "`Galeriya ish faoliyati tuxtatildi!`",
             "ALREADY_STOP": "`Galeriya avvaldan ish faoliyati tuxtagan edi.`",
             "INVALID": "**Nomalum buyruq** Masalan:\n\nGaleri'da rasm yuklash: `.galeriyaga qo'shish https://i.resimyukle.xyz/7Qbbc9.jpeg`\nGalereya ro'yxatiga qarang: `.galeriya ruyxati`\nOddiy fotosuratni o'chirish: `.galeriya uchirish <sıra sayısı>`"
