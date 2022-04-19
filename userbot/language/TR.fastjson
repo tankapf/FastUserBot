@@ -523,7 +523,7 @@
         },
 
         "song": {
-            "GIVE_ME_SONG": "**Bana bir şarkı ver!** `Kullanım: .deez şarkı ismi/youtube/spotify/soundcloud`",
+            "GIVE_ME_SONG": "**Bana bir şarkı ver!** `Kullanım: .mfast şarkı ismi/youtube/spotify/soundcloud`",
             "SEARCHING": "`Şarkı aranıyor...`",
             "BLOCKED_DEEZER": "`Mmmh sanırım` @CreatorMusicAZBot `engellemişsin. Lütfen engeli aç.",
             "NOT_FOUND": "`Aradığınız şarkı bulunamadı! Üzgünüm.`",
