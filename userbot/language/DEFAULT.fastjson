@@ -523,7 +523,7 @@
         },
 
         "song": {
-            "GIVE_ME_SONG": "** Mənə bir mahnı ver!** `İstifadəsi: .deez mahnı adı/youtube/spotify/soundcloud`",
+            "GIVE_ME_SONG": "** Mənə bir mahnı ver!** `İstifadəsi: .mfast mahnı adı/youtube/spotify/soundcloud`",
             "SEARCHING": "`Musiqi axtarılır...`",
             "BLOCKED_DEEZER": "`Deyəsən` @CreatorMusicAZBot `bloklamısan zəhmət olmasa bloku aç",
             "NOT_FOUND": "`Axtardığınız mahnı tapılmadı! Bağışlayın.`",
