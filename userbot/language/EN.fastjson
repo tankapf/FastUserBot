@@ -29,9 +29,9 @@
             "ALREADY_DELETED": "`The Plugin file has already deleted.`",
             "NOT_FOUND_PLUGIN": "`Maybe there was such a plugin, maybe there wasn't. But it's definitely not right now.`",
             "PLUG_DELETED": "`Plugin deleted successfully!` '**You need to restart operations to be implemented.**",
-            "FAST_PLUGIN_CAPTION": "This is a plugin of [Shreed](https://t.me/ShreedUserBot)."
+            "FAST_PLUGIN_CAPTION": "This is a plugin of [FastUserBot](https://t.me/TheFastUserBot)."
         },
-        "__shreed": {
+        "__fast": {
             "NEED_PLUGIN": "Please specify an ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 module name.",
             "NEED_MODULE": "Please specify which ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 module you want help for !!\nUse: .fast <module name>"
         },
