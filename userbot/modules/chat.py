@@ -142,7 +142,7 @@ async def keep_read(message):
                 await message.client.send_read_acknowledge(message.chat_id)
 
 
-# ShreedUserBot
+# FastUserBot
 regexNinja = False
 
 
