@@ -308,7 +308,7 @@ async def demote(dmod):
         await dmod.edit(LANG['UNPROMOTING'])
     except:
         await dmod.reply(LANG['UNPROMOTING'])
-    rank = "shreed"
+    rank = "fast"
     user = await get_user_from_event(dmod)
     user = user[0]
     if user:
