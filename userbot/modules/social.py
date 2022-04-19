@@ -74,7 +74,7 @@ async def _(event):
         except YouBlockedUserError:
             await event.edit(f"{chat}'u blokdan çıxarın")
             return
-        await event.client.send_file(event.chat_id, video, caption=f"{details.text} \n\n@AlphaUserBot `ilə yükləndi`")
+        await event.client.send_file(event.chat_id, video, caption=f"{details.text} \n\n@TheFastUserBot `ilə yükləndi`")
         await event.client.delete_messages(conv.chat_id,
                                            [msg_start.id, r.id, msg.id, details.id, video.id])
         await event.delete()
