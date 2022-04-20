@@ -25,7 +25,7 @@ NOT❗ Termuxu ilk dəfə yükləyirsinizsə ilk öncə (```pkg install python``
 STRING: Termux yükləyin və yapışdırın: ```bash <(curl -L Tezliklə)```
 
 Botu necə quracağınızı bilmirsizsə Support qrupuna yazın: [FastSupp](https://t.me/FastSupp)
-(Shreed UserBot Sahib)(https://t.me/FOUNDERSH)
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FastUserBot/FastUserBot)
 ### Çətin Yol
 ```python
