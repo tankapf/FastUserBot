@@ -16,37 +16,34 @@
 
 ----
 
-## Qurulum
-Botu qurmaq üçün ilk öncə String almaq lazımdır.
+## 🇦🇿 Termux Qurulumu 🇦🇿 ##
 
-Bunun üçün 2 yol vardır.
+Android üçün: Termux yükləyin və yapışdırın: ```bash <(curl -L Tezliklə.)```
 
-Android üçün: Termux yükləyin və yapışdırın: ```bash <(curl -L https://t.ly/80lu)```
+NOT❗ Termuxu ilk dəfə yükləyirsinizsə ilk öncə (```pkg install python```) yazın
 
-NOT! Termuxu ilk dəfə yükləyirsinizsə ilk öncə (```pkg install python```) yazın
+STRING: Termux yükləyin və yapışdırın: ```bash <(curl -L Tezliklə)```
 
-STRING: Termux yükləyin və yapışdırın: ```bash <(curl -L https://t.ly/uv1T)```
-
-Botu necə quracağınızı bilmirsizsə Support qrupuna yazın: [Shreed Support](https://t.me/ShreedSupport)
+Botu necə quracağınızı bilmirsizsə Support qrupuna yazın: [FastSupp](https://t.me/FastSupp)
 (Shreed UserBot Sahib)(https://t.me/FOUNDERSH)
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ShreedUserBot/ShreedUserBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FastUserBot/FastUserBot)
 ### Çətin Yol
 ```python
-git clone https://github.com/ShreedUserBot/ShreedUserBot.git
-cd ShreedUserBot
+git clone https://github.com/FastUserBot/FastUserBot.git
+cd FastUserBot
 pip install -r requirements.txt
 python3 main.py
 ```
 
 ## Məlumatlandırma
-Botla hər hansı probleminiz, istək/irad olarsa [dəstək qrupuna](https://t.me/ShreedSupport) yaza bilərsiz.
+Botla hər hansı probleminiz, istək/irad olarsa [dəstək qrupuna](https://t.me/FastSupp) yaza bilərsiz.
 
 ```
     User Bota göre Telegram hesabınız bağlana biler.
     Biz heç bir mesuliyyet daşımırıq bütün mesuliyyet sizdedir.
     User Botu quraraq bunu tesdiqlemiş olursunuz.
 ```
-## Diqqət
+## ❗Diqqət ❗ ##
 ```
    Reponu icazəsiz götürən bir başa anan mənə tabedir!
 ```
