@@ -1,7 +1,5 @@
-# Copyright (C) 2021-2022 CyberUserBot
-# This file is a part of < https://github.com/FaridDadashzade/CyberUserBot/ >
-# Please read the GNU General Public License v3.0 in
-# <https://www.github.com/FaridDadashzade/CyberUserBot/blob/master/LICENSE/>.
+# Copyright (C) 2022 FastUserBot
+.
 
 from telethon.errors.rpcerrorlist import (UserIdInvalidError,
                                             MessageTooLongError)
@@ -37,7 +35,7 @@ async def get_full_user(event):
         if user.isnumeric():
             user = int(user)
         if not user:
-            await event.edit("`Bir xəta baş verdi.`")
+            await event.edit("`Bir xəta baş verdi.l❌`")
             return
         if event.message.entities is not None:
             probable_user_mention_entity = event.message.entities[0]
@@ -49,7 +47,7 @@ async def get_full_user(event):
         try:
             user_obj = await event.client.get_entity(user)
         except Exception as err:
-            return await event.edit("Bilinməyən xəta baş verdi.", str(err))           
+            return await event.edit("Bilinməyən xəta baş verdi❌", str(err))           
     return user_obj, extra
 
   
@@ -75,7 +73,7 @@ async def gben(userbot):
     i = 0
     sender = await mb.get_sender()
     me = await userbot.client.get_me()
-    await event.edit("`Admin edilir...`")
+    await event.edit("`Admin edilir zəhmət olmasa gözləyin ...`")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
     await userbot.get_chat()
@@ -89,13 +87,13 @@ async def gben(userbot):
     except:
         pass
     if me == user:
-       k = await event.edit("`Bağışla amma özümü admin edə bilmərəm.`")
+       k = await event.edit("`Bağışla amma özümü admin edə bilmərəm😒.`")
        return
     try:
         if not rank:
             rank = "Admin"
     except:
-        return await event.edit(f"`Bilinməyən xəta baş verdi.`")
+        return await event.edit(f"`Bilinməyən xəta baş verdi ❌`")
     if user:
         telchanel = [d.entity.id
                      for d in await userbot.client.get_dialogs()
@@ -111,11 +109,11 @@ async def gben(userbot):
           try:
              await userbot.client(EditAdminRequest(x, user, rgt, rank))
              i += 1
-             await event.edit(f"**Adminlik verilən qruplar**: `{i}`")
+             await event.edit(f"**Adminlik verilən qruplar ✅**: `{i}`")
           except:
              pass
     else:
-        await event.edit(f"`Xahiş edirəm bir istifadəçiyə cavab verin!`")
+        await event.edit(f"`Xahiş edirəm bir istifadəçiyə cavab verin 🤦`")
     return await event.edit(
         f"**#GPROMOTE\n\nIstifadəçi: [{user.first_name}](tg://user?id={user.id})\n{i} qrupda admin edildi.**"
     )
@@ -141,13 +139,13 @@ async def gben(userbot):
     except:
         pass
     if me == user:
-       k = await event.edit("`Bağışlayın ama bunu edə bilmirəm.`")
+       k = await event.edit("`Bağışlayın ama bunu edə bilmirəm 😶`")
        return
     try:
         if not rank:
             rank = "Admin"
     except:
-        return await event.edit(f"`Bir xəta baş verdi.`")
+        return await event.edit(f"`Bir xəta baş verdi ❌`")
     if user:
         telchanel = [d.entity.id
                      for d in await userbot.client.get_dialogs()
@@ -163,11 +161,11 @@ async def gben(userbot):
           try:
              await userbot.client(EditAdminRequest(x, user, rgt, rank))
              i += 1
-             await event.edit(f"**Adminlik alınan qrup sayı **: `{i}`")
+             await event.edit(f"**Adminlik alınan qrup sayı✅ **: `{i}`")
           except:
              pass
     else:
-        await event.edit(f"`Xahiş edirəm bir istifadəçinin mesajına cavab verin.`")
+        await event.edit(f"`Xahiş edirəm bir istifadəçinin mesajına cavab verin 🤦`")
     return await event.edit(
         f"**#GDEMOTE\n\nIstifadəçi: [{user.first_name}](tg://user?id={user.id})\n{i} qrupda.**"
     )
