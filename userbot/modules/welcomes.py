@@ -1,8 +1,4 @@
-# Copyright (C) 2021-2022 CyberUserBot
-# This file is a part of < https://github.com/FaridDadashzade/CyberUserBot/ >
-# Please read the GNU General Public License v3.0 in
-# <https://www.github.com/FaridDadashzade/CyberUserBot/blob/master/LICENSE/>.
-
+# Copyright (C) 2021-2022 FastUserBot
 from userbot.events import register
 from userbot import bot, LOGS, CLEAN_WELCOME, BOTLOG_CHATID
 from telethon.events import ChatAction
@@ -95,7 +91,7 @@ async def save_welcome(event):
             await event.client.send_message(
                 BOTLOG_CHATID, f"#QARSİLAMA_NOTU\
             \nQRUP ID: {event.chat_id}\
-            \nAşağıdakı mesaj söhbət üçün yeni Qarşılama notu olaraq qeyd edildi, xaiş silməyin !!"
+            \nAşağıdakı mesaj söhbət üçün yeni Qarşılama notu olaraq qeyd edildi✅ !!"
             )
             msg_o = await event.client.forward_messages(
                 entity=BOTLOG_CHATID,
