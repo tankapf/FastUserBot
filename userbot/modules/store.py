@@ -28,14 +28,14 @@ async def magaza(event):
     split = plugin.split()
     if plugin == '':
         plugin = 'Son Yüklənən'
-        plugins = await event.client.get_messages('@fastplugins', limit=15, filter=InputMessagesFilterDocument)
+        plugins = await event.client.get_messages('@thefastplugin', limit=15, filter=InputMessagesFilterDocument)
     elif len(split) >= 1 and (split[0] == 'random' or split[0] == 'rastgele'):
         plugin = 'Random'
-        plugins = await event.client.get_messages('@fastplugins', limit=None, filter=InputMessagesFilterDocument)
+        plugins = await event.client.get_messages('@thefastplugin', limit=None, filter=InputMessagesFilterDocument)
         plugins = sample(plugins, int(split[1]) if len(split) == 2 else 5)
     else:
-        plugins = await event.client.get_messages('@fastplugins', limit=None, search=plugin, filter=InputMessagesFilterDocument)
-        random = await event.client.get_messages('@fastplugins', limit=None, filter=InputMessagesFilterDocument)
+        plugins = await event.client.get_messages('@thefastplugin', limit=None, search=plugin, filter=InputMessagesFilterDocument)
+        random = await event.client.get_messages('@thefastplugin', limit=None, filter=InputMessagesFilterDocument)
         random = choice(random)
         random_file = random.file.name
 
@@ -65,7 +65,7 @@ async def sinstall(event):
         return await event.edit('**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n**⚠️ Xəta:** `Zəhmət olmasa sadəcə rəqəm yazın. Əgər plugin axtarmaq istəyirsinizsə .store komandasını işlədin.`')
     
     await event.edit('**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n`🔎 Plugin\'i gətirirəm... Biraz gözlə.`')
-    plugin = await event.client.get_messages('@fastplugins', ids=plugin)
+    plugin = await event.client.get_messages('@thefastplugin', ids=plugin)
     await event.edit(f'**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n`✅ {plugin.file.name} plugini gətirildi!`\n`⬇️ Plugini yükləyirəm... Biraz gözləyin.`')
     dosya = await plugin.download_media('./userbot/modules/')
     await event.edit(f'**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n`✅ {plugin.file.name} yükləmə uğurludur!`\n`⬇️ Plugini yükləyirəm... Biraz gözləyin.`')
