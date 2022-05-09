@@ -1,5 +1,5 @@
 MESAJ="𝙵𝙰𝚂𝚃 𝚄𝚂𝙴𝚁𝙱𝙾𝚃"
-MESAJ+="\nTelegram: @FastSupp"
+MESAJ+="\nTelegram: @TheFastSup"
 pkg upgrade
 clear
 echo -e $MESAJ
