@@ -122,9 +122,14 @@ def register(**args):
                     file.close()
 
                     if LOGSPAMMER:
-                        await check.client.send_message(check.chat_id, f"🔋 **Fast Userbotda xəta baş verdi.**\n🆘 __**Xəta Logları Botlog qrupunda saxlanılır.**__\n\n❌ İndiki Xəta: ```{xeta}```")
-                    await check.client.send_file(send_to, "FastLogo.jpg", thumb = "userbot/modules/sql_helper/FastLogo.jpg", caption=text)
-                    remove("FastLogo.jpg")
+                        await check.client.respond("`Bağışla, UserBotun çökdü.\
+                        \nXeta hesabatları UserBot gündelik qrupunda gizlener.`")
+
+                    await check.client.send_file(send_to,
+                                                 "error.log",
+                                                 caption=text)
+
+                    remove("error.log")
             else:
                 pass
         if not disable_edited:
