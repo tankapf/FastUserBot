@@ -286,11 +286,10 @@ def butonlastir(sayfa, moduller):
 with bot:
     if AVTO_QATILMA:
         try:
-            bot(JoinChannelRequest("@FastSupp"))
-            bot(JoinChannelRequest("@FastPlugins"))
-            bot(JoinChannelRequest("@FastSohbet"))
-            bot(JoinChannelRequest("@FastResmi"))
-            bot(JoinChannelRequest("@TheFastUserBot"))
+            bot(JoinChannelRequest("@TheFastSup"))
+            bot(JoinChannelRequest("@TheFastPlugin"))
+            bot(JoinChannelRequest("@TheFastChatt"))
+            bot(JoinChannelRequest("@TheFastResmi"))
         except:
             pass
 
@@ -332,12 +331,12 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    "@FastSupp",
+                    "@TheFastSup",
                     text="""ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ işlədin
 Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmayın, siz başqasının botunu idarə etməssiniz! Altdakı GitHub adresində bütün qurulum detayları var""",
                     buttons=[
-                        [custom.Button.url("Kanal", "https://t.me/FastResmi"), custom.Button.url(
-                            "Qrup", "https://t.me/FastSupp")],
+                        [custom.Button.url("Kanal", "https://t.me/TheFastResmi"), custom.Button.url(
+                            "Qrup", "https://t.me/TheFastSup")],
                         [custom.Button.url(
                             "GitHub", "https://github.com/fastuserbot/fastuserbot")]
                     ],
@@ -421,7 +420,7 @@ Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmay
         LOGS.info(
             "Botunuzda inline modu deaktiv edildi. "
             "Aktivleşdirmek üçün bir bot token yazın ve inline modunu açın. "
-            "Eger bunnan başqa probleminiz varsa bize yazın @ShreedSupport."
+            "Eger bunnan başqa probleminiz varsa bize yazın @TheFastSup."
         )
 
     try:
