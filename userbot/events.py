@@ -80,8 +80,8 @@ def register(**args):
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
                     text = "**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 XETA HESABATI**\n"
-                    link = "[ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋](https://t.me/FastSupp)"
-                    text += "İstəsəniz bunu şikayət edə bilərsiniz"
+                    link = "[ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋](https://t.me/TheFastSup)"
+                    text += "Xətanı Supporta Göndərməyiniz Bəs Edir"
                     text += f" - sadəcə bu mesajı buraya göndərin {link}.\n"
                     text += "Xəta və Tarixdən başqa heçnə qeyd edilmir\n"
 
@@ -117,18 +117,14 @@ def register(**args):
 
                     ftext += result
 
-                    file = open("error.log", "w+")
+                    file = open("FastLogo.jpg", "w+")
                     file.write(ftext)
                     file.close()
 
                     if LOGSPAMMER:
-                        await check.client.respond("`Bağışla, UserBotun çökdü.\
-                        \nXeta hesabatları ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 gündelik qrupunda gizlener.`")
-
-                    await check.client.send_file(send_to,
-                                                 "error.log",
-                                                 caption=text)
-                    remove("error.log")
+                        await check.client.send_message(check.chat_id, f"🔋 **Fast Userbotda xəta baş verdi.**\n🆘 __**Xəta Logları Botlog qrupunda saxlanılır.**__\n\n❌ İndiki Xəta: ```{xeta}```")
+                    await check.client.send_file(send_to, "FastLogo.jpg", thumb = "userbot/modules/sql_helper/FastLogo.jpg", caption=text)
+                    remove("FastLogo.jpg")
             else:
                 pass
         if not disable_edited:
