@@ -233,7 +233,7 @@ for module_name in ALL_MODULES:
     imported_module = import_module("userbot.modules." + module_name)
 
 LOGS.info("Botunuz işleyir! Hansısa söhbete  .alive yazaraq Test ede bilersiz!."
-          " Kömeye ehtiyacınız varsa, destek qrupuna gelin: t.me/FastSupp")
+          " Kömeye ehtiyacınız varsa, destek qrupuna gelin: t.me/TheFastSup")
 LOGS.info(f"Bot versiyası: FAST {FAST_VERSION}")
 
 """
