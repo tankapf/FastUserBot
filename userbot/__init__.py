@@ -30,11 +30,11 @@ ASYNC_POOL = []
 
 if CONSOLE_LOGGER_VERBOSE:
     basicConfig(
-        format="%(asctime)s - @FastSupp - %(levelname)s - %(message)s",
+        format="%(asctime)s - @TheFastSup - %(levelname)s - %(message)s",
         level=DEBUG,
     )
 else:
-    basicConfig(format="%(asctime)s - @FastSupp - %(levelname)s - %(message)s",
+    basicConfig(format="%(asctime)s - @TheFastSup - %(levelname)s - %(message)s",
                 level=INFO)
 LOGS = getLogger(__name__)
 
@@ -148,7 +148,7 @@ TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
 CLEAN_WELCOME = sb(os.environ.get("CLEAN_WELCOME", "True"))
 
 # Last.fm 
-BIO_PREFIX = os.environ.get("BIO_PREFIX", "@TheFastUserBot | ")
+BIO_PREFIX = os.environ.get("BIO_PREFIX", "@TheFastSupp | ")
 DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
@@ -185,7 +185,7 @@ PM_AUTO_BAN_LIMIT = int(os.environ.get("PM_AUTO_BAN_LIMIT", 4))
 SPOTIFY_DC = os.environ.get("SPOTIFY_DC", None)
 SPOTIFY_KEY = os.environ.get("SPOTIFY_KEY", None)
 
-PAKET_ISMI = os.environ.get("PAKET_ISMI", "@TheFastUserBot Paketi")
+PAKET_ISMI = os.environ.get("PAKET_ISMI", "@TheFastSupp Paketi")
 
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 
@@ -301,7 +301,7 @@ with bot:
         @tgbot.on(NewMessage(pattern='/start'))
         async def start_bot_handler(event):
             if not event.message.from_id == uid:
-                await event.reply(f'`Salam mən` 𝙁𝘼𝙎𝙏 𝙐𝙎𝙀𝙍𝘽𝙊𝙏`! Mən sahibimə (`@{me.username}`) kömək etmək üçün varam, yəni sənə kömək edə bilmərəm :( Amma səndə 𝙁𝘼𝙎𝙏 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 qura bilərsən Dəstək qrupumuza gəl` @FastSupp')
+                await event.reply(f'`Salam mən` 𝙁𝘼𝙎𝙏 𝙐𝙎𝙀𝙍𝘽𝙊𝙏`! Mən sahibimə (`@{me.username}`) kömək etmək üçün varam, yəni sənə kömək edə bilmərəm :( Amma səndə 𝙁𝘼𝙎𝙏 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 qura bilərsən Dəstək qrupumuza gəl` @TheFastSup')
             else:
                 await event.reply(f'`FastUserBot 🔋`')
 
