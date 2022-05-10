@@ -78,7 +78,7 @@ async def bot_ver(event):
                          "`")
     else:
         await event.edit(
-            "[ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋](https://t.me/FastResmi)"
+            "[𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩](https://t.me/TheFastResmi)"
         )
 
 
