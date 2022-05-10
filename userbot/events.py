@@ -79,20 +79,20 @@ def register(**args):
                 if not disable_errors:
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
-                    text = "**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 XETA HESABATI**\n"
-                    link = "[ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋](https://t.me/TheFastSup)"
+                    text = "**🇦🇿𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩🇦🇿 XETA HESABATI**\n"
+                    link = "[🇦🇿𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩🇦🇿](https://t.me/TheFastSup)"
                     text += "Xətanı Supporta Göndərməyiniz Bəs Edir"
                     text += f" - sadəcə bu mesajı buraya göndərin {link}.\n"
                     text += "Xəta və Tarixdən başqa heçnə qeyd edilmir\n"
 
-                    ftext = "========== XƏBƏRDARLIQ =========="
+                    ftext = "========== 𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩  XƏBƏRDARLIQ =========="
                     ftext += "\nBu faylı sadece bura yüklendi,"
                     ftext += "\nsadece xeta ve tarix hissesini qeyd etdik,"
                     ftext += "\nşexsi melumatlarınıza hörmet edirik,"
                     ftext += "\nburada hansısa şexsi melumatınız varsa"
                     ftext += "\nbu xeta hesabatı olmaya biler, kimse melumatlarınıza baxa bilmez.\n"
                     ftext += "================================\n\n"
-                    ftext += "--------USERBOT XETA HESABATI--------\n"
+                    ftext += "--------𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩 XETA HESABATI--------\n"
                     ftext += "\nTarix: " + date
                     ftext += "\nQrup ID: " + str(check.chat_id)
                     ftext += "\nGönderen İsdifadeçinin ID: " + str(check.sender_id)
@@ -102,7 +102,7 @@ def register(**args):
                     ftext += str(format_exc())
                     ftext += "\n\nXeta:\n"
                     ftext += str(sys.exc_info()[1])
-                    ftext += "\n\n--------ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 XETA HESABATI SONLUQ--------"
+                    ftext += "\n\n--------🇦🇿𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩🇦🇿 XETA HESABATI SONLUQ--------"
 
                     command = "git log --pretty=format:\"%an: %s\" -10"
 
