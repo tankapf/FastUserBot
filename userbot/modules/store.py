@@ -24,7 +24,7 @@ LANG = get_value("__plugin")
 @register(outgoing=True, pattern="^.ma[gğ]aza ?(.*)")
 async def magaza(event):
     plugin = event.pattern_match.group(1)
-    await event.edit('**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n`🔎 Plugin\'i axtarıram... Biraz gözlə...`')
+    await event.edit('**🛒𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩 𝙋𝙡𝙪𝙜𝙞𝙣 𝙈𝙖ğ𝙖𝙯𝙖𝙨ı🛒**\n__Versiyon 1.0__\n\n`🔎 Plugin\'i axtarıram... Biraz gözlə...`')
     split = plugin.split()
     if plugin == '':
         plugin = 'Son Yüklənən'
@@ -39,7 +39,7 @@ async def magaza(event):
         random = choice(random)
         random_file = random.file.name
 
-    result = f'**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n**🔎 Axtarış:** `{plugin}`\n**🔢 Nəticələr: __({len(plugins)})__**\n➖➖➖➖➖\n\n'
+    result = f'**🛒𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩 𝙋𝙡𝙪𝙜𝙞𝙣 𝙈𝙖ğ𝙖𝙯𝙖𝙨ı🛒**\n__Versiyon 1.0__\n\n**🔎 Axtarış:** `{plugin}`\n**🔢 Nəticələr: __({len(plugins)})__**\n➖➖➖➖➖\n\n'
     
     if len(plugins) == 0:
         result += f'**Heçnə tapa bilmədim...**\n`{random_file}` __plugini necədi? 🤔__'
@@ -62,13 +62,13 @@ async def sinstall(event):
     try:
         plugin = int(plugin)
     except:
-        return await event.edit('**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n**⚠️ Xəta:** `Zəhmət olmasa sadəcə rəqəm yazın. Əgər plugin axtarmaq istəyirsinizsə .store komandasını işlədin.`')
+        return await event.edit('**🛒𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩 𝙋𝙡𝙪𝙜𝙞𝙣 𝙈𝙖ğ𝙖𝙯𝙖𝙨ı🛒**\n__Versiyon 1.0__\n\n**⚠️ Xəta:** `Zəhmət olmasa sadəcə rəqəm yazın. Əgər plugin axtarmaq istəyirsinizsə .store komandasını işlədin.`')
     
-    await event.edit('**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n`🔎 Plugin\'i gətirirəm... Biraz gözlə.`')
+    await event.edit('**🛒𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩 𝙋𝙡𝙪𝙜𝙞𝙣 𝙈𝙖ğ𝙖𝙯𝙖𝙨ı🛒**\n__Versiyon 1.0__\n\n`🔎 Plugin\'i gətirirəm... Biraz gözlə.`')
     plugin = await event.client.get_messages('@thefastplugin', ids=plugin)
-    await event.edit(f'**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n`✅ {plugin.file.name} plugini gətirildi!`\n`⬇️ Plugini yükləyirəm... Biraz gözləyin.`')
+    await event.edit(f'**🛒𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩 𝙋𝙡𝙪𝙜𝙞𝙣 𝙈𝙖ğ𝙖𝙯𝙖𝙨ı🛒**\n__Versiyon 1.0__\n\n`✅ {plugin.file.name} plugini gətirildi!`\n`⬇️ Plugini yükləyirəm... Biraz gözləyin.`')
     dosya = await plugin.download_media('./userbot/modules/')
-    await event.edit(f'**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n`✅ {plugin.file.name} yükləmə uğurludur!`\n`⬇️ Plugini yükləyirəm... Biraz gözləyin.`')
+    await event.edit(f'**🛒𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩 𝙋𝙡𝙪𝙜𝙞𝙣 𝙈𝙖ğ𝙖𝙯𝙖𝙨ı🛒**\n__Versiyon 1.0__\n\n`✅ {plugin.file.name} yükləmə uğurludur!`\n`⬇️ Plugini yükləyirəm... Biraz gözləyin.`')
     
     try:
         spec = importlib.util.spec_from_file_location(dosya, dosya)
@@ -76,7 +76,7 @@ async def sinstall(event):
         spec.loader.exec_module(mod)
     except Exception as e:
         os.remove("./userbot/modules/" + dosya)
-        return await event.edit(f'**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n**⚠️ Xəta:** `Plugin xətalıdır. {e}`\n**BUNU ADMİNLƏRƏ DEYİN!**')
+        return await event.edit(f'**🛒𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩 𝙋𝙡𝙪𝙜𝙞𝙣 𝙈𝙖ğ𝙖𝙯𝙖𝙨ı🛒**\n__Versiyon 1.0__\n\n**⚠️ Xəta:** `Plugin xətalıdır. {e}`\n**BUNU ADMİNLƏRƏ DEYİN!**')
 
     dosy = open(dosya, "r").read()
     if re.search(r"@tgbot\.on\(.*pattern=(r|)\".*\".*\)", dosy):
@@ -96,7 +96,7 @@ async def sinstall(event):
             if re.search(r'CmdHelp\(.*\)', dosy):
                 cmdhelp = re.findall(r"CmdHelp\([\"'](.*)[\"']\)", dosy)[0]
                 await plugin.forward_to(PLUGIN_CHANNEL_ID)
-                return await event.edit(f'**Modul uğurla yükləndi!**\n__Modul haqqında məlumat üçün__ `.fast {cmdhelp}` __yazın.__')
+                return await event.edit(f'**☑️ Modul uğurla yükləndi! ☑️**\n__Modul haqqında məlumat üçün__ `.fast {cmdhelp}` __yazın.__')
             else:
                 await plugin.forward_to(PLUGIN_CHANNEL_ID)
                 userbot.cmdhelp.CmdHelp(dosya).add_warning('Komanda tapıla bilmədi!').add()
@@ -105,12 +105,12 @@ async def sinstall(event):
             if re.search(r'CmdHelp\(.*\)', dosy):
                 cmdhelp = re.findall(r"CmdHelp\([\"'](.*)[\"']\)", dosy)[0]
                 await plugin.forward_to(PLUGIN_CHANNEL_ID)
-                return await event.edit(f'**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n**✅ Modul uğurla yükləndi**\n__ℹ️ Modul haqqında məlumat üçün__ `.fast {cmdhelp}` __yazın.__')
+                return await event.edit(f'**🛒𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩 𝙋𝙡𝙪𝙜𝙞𝙣 𝙈𝙖ğ𝙖𝙯𝙖𝙨ı🛒**\n__Versiyon 1.0__\n\n**✅ Modul uğurla yükləndi**\n__ℹ️ Modul haqqında məlumat üçün__ `.fast {cmdhelp}` __yazın.__')
             else:
                 dosyaAdi = plugin.file.name.replace('.py', '')
                 extractCommands(dosya)
                 await plugin.forward_to(PLUGIN_CHANNEL_ID)
-                return await event.edit(f'**ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Plugin Mağazası**\n__Versiyon 1.0__\n\n**✅ Modul uğurla yükləndi!**\n__ℹ️ Modul haqqında məlumat üçün__ `.fast {dosyaAdi}` __yazın.__')
+                return await event.edit(f'**🛒𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩 𝙋𝙡𝙪𝙜𝙞𝙣 𝙈𝙖ğ𝙖𝙯𝙖𝙨ı🛒**\n__Versiyon 1.0__\n\n**✅ Modul uğurla yükləndi!**\n__ℹ️ Modul haqqında məlumat üçün__ `.fast {dosyaAdi}` __yazın.__')
 
 userbot.cmdhelp.CmdHelp('store').add_command(
     'store', '<söz>', 'Plugin kanalına atılan son pluginləri gətirər. Əgər söz yazsanız plugin kanalında axtarış edər.'
