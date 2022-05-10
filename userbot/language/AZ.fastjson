@@ -582,12 +582,12 @@
         },
 
         "updater": {
-            "DETECTING": "`Yenilənmələr yoxlanılır...`",
+            "DETECTING": "`FastUserBot Yeniləməsi Yoxlanılır..`",
             "FAILED": "Yeniləmə alınmadı! Bəzi problemlərlə qarşılaşdıq.",
             "NOT_FOUND": "qovluğu tapa bilmədi",
             "GIT_ERROR": "Git xətası!",
             "NOT_GIT": "qovluğlu bir git reposu kimi görünmür. \nAncaq botu .update now əmri ilə zorla yeniləməklə bu problemi həll edə bilərsiniz.",
-            "INVALID_BRANCH": "**[UPDATER]:**` Düşünürəm ki, Fast botunuzu dəyişdirdiniz və öz filialınızdan istifadə edirsiniz.\nBu vəziyyət yenilənməni edənin başını qarışdırır,\nGüncəllənmə haradan çəkiləcək?\nXahiş edirəm rəsmi repodan Shreed Botunu istifadə edin.`",
+            "INVALID_BRANCH": "**[UPDATER]:**` Düşünürəm ki, Fast botunuzu dəyişdirdiniz və öz filialınızdan istifadə edirsiniz.\nBu vəziyyət yenilənməni edənin başını qarışdırır,\nGüncəllənmə haradan çəkiləcək?\nXahiş edirəm rəsmi repodan FastUserBot istifadə edin.`",
             "UPDATE": "\n`Botun` **Ən güncəl versiyadadır!** `Branch:` **{}**\n",
             "WAS_UPDATE": "**{} üçün yeni güncəlləmə mövcuddur!\n\nDəyişikliklər:**\n`{}`",
             "BIG": "`Dəyişikliklərin siyahısı çox böyükdür, ona bir fayl kimi baxmalısınız.`",
@@ -596,9 +596,9 @@
             "UPDATING": "`Bot yenilənir...`",
             "INVALID_APPNAME": "`[HEROKU UPDATER] Güncəlləmədən istifadə etmək üçün HEROKU_APPNAME dəyişənini təyin etməlisiniz.`",
             "INVALID_HEROKU": "{}\n`Heroku dəyişənləri səhv və ya müəyyənləşdirilmişdir.`",
-            "HEROKU_UPDATING": "`[HEROKU UPDATER]\nꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Güncəlləyici Başladı .`\n@TheFastUserBot",
+            "HEROKU_UPDATING": "`𝙵𝚊𝚜𝚝𝚄𝚜𝚎𝚛𝙱𝚘𝚝 𝙶ü𝚗𝚌ə𝚕𝚕ə 𝙱𝚊ş𝚕𝚊𝚍ı 𝙱𝚞 𝙿𝚛𝚘𝚜𝚎𝚜 𝚃ə𝚡𝚖𝚒𝚗ə𝚗 𝟸-𝟹 𝙳ə𝚚𝚒𝚚ə Çə𝚔𝚒𝚛",
             "ERRORS": "Qarşılaşdığımız səhflər bunlardır",
-            "SUCCESSFULLY": "`Yeniləmə uğurla başa çatdı! \n3 dəqiqə sonra .alive yazıb yoxlayın!  ...`"
+            "SUCCESSFULLY": "`Yeniləmə uğurla başa çatdı! \n3 dəqiqə sonra .alive yazıb yoxlayın!`"
         },
 
         "upload_download": {
