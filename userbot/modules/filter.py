@@ -66,7 +66,7 @@ def split_quotes(text: str):
 
 @register(incoming=True, disable_edited=True, disable_errors=True)
 async def filter_incoming_handler(handler):
-    """ ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 """
+    """🇦🇿 𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩 🇦🇿"""
     try:
         if not (await handler.get_sender()).bot:
             try:
