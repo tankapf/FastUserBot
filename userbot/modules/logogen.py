@@ -31,7 +31,7 @@ async def logo_gen(event):
     else:
         pics = []
         async for i in event.client.iter_messages(
-            "@FastLoqo", filter=InputMessagesFilterPhotos
+            "@FastLoogo", filter=InputMessagesFilterPhotos
         ):
             pics.append(i)
         id_ = random.choice(pics)
