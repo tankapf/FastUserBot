@@ -1,7 +1,5 @@
-# Copyright (C) 2021-2022 CyberUserBot
-# This file is a part of < https://github.com/FaridDadashzade/CyberUserBot/ >
-# Please read the GNU General Public License v3.0 in
-# <https://www.github.com/FaridDadashzade/CyberUserBot/blob/master/LICENSE/>.
+# Copyright (C) 2021-2022 FastUserBot
+
 
 import asyncio
 import threading
@@ -13,7 +11,7 @@ from userbot.cmdhelp import CmdHelp
 # ---------------------------------- #
 
 from userbot.language import get_value
-LANG = get_value("cyberlangs")
+LANG = get_value("fastlangs")
 
 # ---------------------------------- #
 
