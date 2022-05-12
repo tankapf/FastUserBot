@@ -40,32 +40,32 @@ DIZCILIK_STR = [
 ]
 
 AFKSTR = [
-    "💫İndi vacib işimlərim var, gələndə yazacam🖤\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "🥲Birazdan gələcəm amma gəlməsəm...\nDarıxma😕\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "😡Ay xaam yeri get..\nistirahət elirəm:)\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "Sahibim hal-hazırda AFK dı!\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "🎈həyatdakı ən yaxşı şeyləri gözləməyə dəyər…\nGələcəm.🎈\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "Bəli❓\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "▪▫Sahibim gəlir gözlə▫▪.\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "Hal-hazırda sahibim burada deyil!\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "💠Salam, uzaq mesajıma xoş gəldiniz💠, sizə necə kömək edə bilərəm?\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "Mən sahibimin xüsusi botuyam!, sizdə bot istəyirsizsə: ⚜ @TheFastUserBot ⚜ qur.\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "Hal hazırda burdan çoox uzaqdayam.\nQışqırsan bəlkə eşitdim.\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "ℹBu tərəfə gedirəm\n🔜\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "ℹBu tərəfə gedirəm\n🔙\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "♻Mesajınızı Sahibim ə göndərirəm....\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "✖Sahibim burda deyil mənə yazmağı kəs artıq.✖.\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "Sahibim burada deyil..\nqayıdanda sizinlə əlaqə saxlayacaqdır✅\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "📴Sahibim burda deyil📴 Telefona baxmağa vaxdı yoxdur.\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "😬Belə gözəl bir gündə niyə məni narahat edirsən⚠❔.\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "😴Çox heyif ki sahibim burada deyil..😴\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
-    "Hal hazırda burdayam amma mesajını görməzdən gələcəm :)\n\n🧑‍💻SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi",
+    "💫İndi vacib işimlərim var, gələndə yazacam🖤\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "🥲Birazdan gələcəm amma gəlməsəm...\nDarıxma😕\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "😡Ay xaam yeri get..\nistirahət elirəm:)\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "Sahibim hal-hazırda AFK dı!\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "🎈həyatdakı ən yaxşı şeyləri gözləməyə dəyər…\nGələcəm.🎈\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "Bəli❓\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "▪▫Sahibim gəlir gözlə▫▪.\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "Hal-hazırda sahibim burada deyil!\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "💠Salam, uzaq mesajıma xoş gəldiniz💠, sizə necə kömək edə bilərəm?\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "Mən sahibimin xüsusi botuyam!, sizdə bot istəyirsizsə: ⚜ @TheFastUserBot ⚜ qur.\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "Hal hazırda burdan çoox uzaqdayam.\nQışqırsan bəlkə eşitdim.\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "ℹBu tərəfə gedirəm\n🔜\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "ℹBu tərəfə gedirəm\n🔙\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "♻Mesajınızı Sahibim ə göndərirəm....\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "✖Sahibim burda deyil mənə yazmağı kəs artıq.✖.\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "Sahibim burada deyil..\nqayıdanda sizinlə əlaqə saxlayacaqdır✅\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "📴Sahibim burda deyil📴 Telefona baxmağa vaxdı yoxdur.\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "😬Belə gözəl bir gündə niyə məni narahat edirsən⚠❔.\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "😴Çox heyif ki sahibim burada deyil..😴\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
+    "Hal hazırda burdayam amma mesajını görməzdən gələcəm :)\n\n🧑‍💻SAHİBİM {last_seen_long} Əvvəl Akdiv İdi",
 ]
 
 UNAPPROVED_MSG = ("`Hey,` {mention}`! Bu bir bot. Narahat olma.\n\n`"
                   "`Sahibim sənə PM atma icazəsi verməyib. `"
                   "`Zəhmət olmasa sahibimin aktiv olmağını gözləyin, o adətən PM'ləri qəbul edir.\n\n`"
-                  "`Bildiyim qədəri ilə o dəlilərə PM atma icazəsi vermir.`\n@TheFastUserBot `Quraraq sənində belə bir botun ola bilər SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi:)`")
+                  "`Bildiyim qədəri ilə o dəlilərə PM atma icazəsi vermir.`\n@TheFastUserBot `Quraraq sənində belə bir botun ola bilər SAHİBİM {last_seen_long} Əvvəl Akdiv İdi:)`")
 
 DB = connect("learning-data-root.check")
 CURSOR = DB.cursor()
