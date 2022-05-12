@@ -35,7 +35,7 @@
         
         "__fast": {
             "NEED_PLUGIN": "🌟 Zəhmət olmasa bir 𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩 modulu adı yazın.🌟",
-            "NEED_MODULE": "🌐 Zəhmət olmasa hansı 𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩 modulu üçün kömək istədiyinizi qeyd edin 🌐!!\n🏷️İstifadəsi: .fast <modul adı>"
+            "NEED_MODULE": "🌐 Zəhmət olmasa hansı 𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩 modulu üçün kömək istədiyinizi qeyd edin!\n🏷️İstifadəsi: .fast <modul adı>"
         },
 
         "__helpme": {
