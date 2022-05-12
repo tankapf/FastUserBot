@@ -104,7 +104,7 @@
 
         "afk": {
             "REASON": "🏷️Səbəb:",
-            "AFK": "Sahibim hazırda Xətdə deyil gözəl insan❤️ Sahibim{last_seen_long} Öncə Akdiv İdi",
+            "AFK": "Sahibim hazırda Xətdə deyil gözəl insan❤️ Sahibim set {last_seen_long} Əvvəl Akdiv İdi",
             "IM_AFK": "🌟 AFK Oldum ",
             "IM_NOT_AFK": "🌟 Sahibim Gəldi 🌟"
         },
