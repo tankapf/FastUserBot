@@ -60,7 +60,7 @@ if not LANGUAGE in ["EN", "TR", "AZ", "UZ", "DEFAULT"]:
     LANGUAGE = "AZ"
     
 # FAST VERSION
-FAST_VERSION = "v1.5"
+FAST_VERSION = "v2"
 
 # Telegram API KEY ve HASH
 API_KEY = os.environ.get("API_KEY", None)
