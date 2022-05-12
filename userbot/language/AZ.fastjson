@@ -596,9 +596,9 @@
             "UPDATING": "`Bot yenilənir...`",
             "INVALID_APPNAME": "`[HEROKU UPDATER] Güncəlləmədən istifadə etmək üçün HEROKU_APPNAME dəyişənini təyin etməlisiniz.`",
             "INVALID_HEROKU": "{}\n`Heroku dəyişənləri səhv və ya müəyyənləşdirilmişdir.`",
-            "HEROKU_UPDATING": "`𝙵𝚊𝚜𝚝𝚄𝚜𝚎𝚛𝙱𝚘𝚝 𝙶ü𝚗𝚌ə𝚕𝚕ə'ci 𝙱𝚊ş𝚕𝚊𝚍ı 𝙱𝚞 𝙿𝚛𝚘𝚜𝚎𝚜 𝚃ə𝚡𝚖𝚒𝚗ə𝚗 𝟸-𝟹 𝙳ə𝚚𝚒𝚚ə Çə𝚔𝚒𝚛",
+            "HEROKU_UPDATING": "Güncəlləmə Başladı UserBotunuz Daha Yaxşı Olacağına Əmin Ola Bilərsinin!",
             "ERRORS": "Qarşılaşdığımız səhflər bunlardır",
-            "SUCCESSFULLY": "`Yeniləmə uğurla başa çatdı! \n3 dəqiqə sonra .alive yazıb yoxlayın!`"
+            "SUCCESSFULLY": "`🌟Yeniləmə uğurla başa çatdı!🌟 \n3 dəqiqə sonra .alive yazıb yoxlaya bilərsiniz`"
         },
 
         "upload_download": {
