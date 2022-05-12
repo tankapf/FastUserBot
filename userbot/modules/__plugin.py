@@ -123,7 +123,7 @@ async def plist(event):
                 continue
 
             if dosyaismi == "py":
-                yuklenen += f"▶️ {plugin.file.name}\n"
+                yuklenen += f"🌟 {plugin.file.name}\n"
         await event.edit(yuklenen)
     else:
         await event.edit(LANG["TEMP_PLUGIN"])
