@@ -58,7 +58,7 @@
             "ALREADY_GBANNED": "`Xəta! İstifadəçi artıq dünya miqyasında qadağan edilmişdir.`",
             "GBANNED_REASON": "`İstifadəçi dünya miqyasında qadağan edildi!`\n**Səbəbi:**",
             "GBANNED": "`İstifadəçi dünya miqyasında qadağan edildi!`",
-            "GBAN_TEXT": "```Sən pis birisən! Artıq sənin burada olmağıvı istəmirəm. Banlandın!```",
+            "GBAN_TEXT": "```Sən pis birisən! Artıq sənin burada olmağıvı istəmirəm. {mention} tərəfindən Banlandın!```",
             "UNGBANNING": "```Dünya miqyasında qadağa ləğv edilir...```",
             "NO_BANNED": "`Xəta! Yəqin ki, istifadəçinin qadağası yoxdur.`",
             "UNGBANNED": "```İstifadəçinin dünya miqyasında qadağası ləğv edildi```",
@@ -104,7 +104,7 @@
 
         "afk": {
             "REASON": "🏷️Səbəb:",
-            "AFK": "Sahibim hazırda Xətdə deyil gözəl insan❤️ Sahibim set {last_seen_long} Əvvəl Akdiv İdi",
+            "AFK": "Sahibim hazırda Xətdə deyil gözəl insan❤️\n\n🤴Sahibim set {last_seen_long} Əvvəl akdiv İdi😊",
             "IM_AFK": "🌟 AFK Oldum ",
             "IM_NOT_AFK": "🌟 Sahibim Gəldi 🌟"
         },
