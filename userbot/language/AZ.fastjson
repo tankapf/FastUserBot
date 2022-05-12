@@ -104,7 +104,7 @@
 
         "afk": {
             "REASON": "🏷️Səbəb:",
-            "AFK": "Sahibim hazırda Xətdə deyil gözəl insan❤️.",
+            "AFK": "Sahibim hazırda Xətdə deyil gözəl insan❤️ Sahibim{last_seen_long} Öncə Akdiv İdi",
             "IM_AFK": "🌟 AFK Oldum ",
             "IM_NOT_AFK": "🌟 Sahibim Gəldi 🌟"
         },
@@ -114,7 +114,7 @@
             "ALREADY": "`Hazırda %s onsuzda avtomatik olaraq dəyişir.`",
             "SETTING": "`%s nizamlanır...`",
             "BIO": "📅 Tarix: {tarih} | ⌚️ Saat: {saat} | ",
-            "NICK": "@TheFastUserBot",
+            "NICK": "@TheFastSup",
             "SETTED": "`%s nizamlandı :)`",
             "NAME": "⏰%s"
         },
@@ -161,23 +161,23 @@
         },
 
         "chat": {
-            "USERNAME": "İstifadəçi adı:",
-            "ID": "İstifadəçi ID:",
-            "GROUP": "Qrup ID:",
-            "NEED_LOG": "`Bu xüsusiyyəti aktivləşdirmək üçün giriş açıq olmalıdır!`",
-            "UNMUTED": "`Çatın səsi açıldı`",
-            "MUTED": "`Çat səssiz rejimdədir!`"
+            "USERNAME": "🔰İstifadəçi adı🔰:",
+            "ID": "🔰İstifadəçi ID🔰:",
+            "GROUP": "🔰Qrup ID🔰:",
+            "NEED_LOG": "`🔰Bu xüsusiyyəti aktivləşdirmək üçün giriş açıq olmalıdır!🔰`",
+            "UNMUTED": "`☑️Çatın səsi açıldı☑️`",
+            "MUTED": "`🔰Çat səssiz rejimdədir!🔰`"
         },
 
         "degistir": {
-            "SETTED_MEDIA": "üçün medianız qeydə alındı.",
-            "SETTED_REPLY": "üçün mesajınız qeydə alındı.",
-            "SUCCESS_DELETED": "`Plugin mesajı uğurla silindi.`",
-            "ERROR_DELETED": "Plugin mesajı silinə bilmədi.** Xəta",
-            "NOT_FOUND": "**Bilinməyən plugin.** Mesajını silə biləcəyiniz pluginlər",
-            "USAGE": "**Dəyişdir, botdaki plugin-mesajlarını dəyişdirə bilməyiniz üçündür.**\nNümunə İstifadəsi: `.deyisdir afk \"Hazırda burda deyiləm... Bəlkədə heç gəlmədim\"`\nPlugin-mesajını silmək: `.değiştir afk`\nDəyişdirə biləcəyiniz plugin-mesajları (indiki): `afk/alive/pm/kickme/dızcı/ban/mute/approve/disapprove/block`",
-            "CANNOT_EMPTY": "Plugin mesajı boş ola bilməz.",
-            "SETTED": "Plugin(`{plu}`) üçün mesajınız(`{msj}`) təsdiqləndi."
+            "SETTED_MEDIA": "✨üçün medianız qeydə alındı✨.",
+            "SETTED_REPLY": "✨üçün mesajınız qeydə alındı✨.",
+            "SUCCESS_DELETED": "`✨Plugin mesajı uğurla silindi✨.`",
+            "ERROR_DELETED": "✨Plugin mesajı silinə bilmədi✨.** Xəta",
+            "NOT_FOUND": "**✨Bilinməyən plugin.** Mesajını silə biləcəyiniz pluginlər",
+            "USAGE": "**✨Dəyişdir, botdaki plugin-mesajlarını dəyişdirə bilməyiniz üçündür.**\n🏷️Nümunə İstifadəsi: `.deyisdir afk \"Hazırda burda deyiləm... Bəlkədə heç gəlmədim\"`\nPlugin-mesajını silmək: `.değiştir afk`\nDəyişdirə biləcəyiniz plugin-mesajları (indiki): `afk/alive/pm/kickme/dızcı/ban/mute/approve/disapprove/block`",
+            "CANNOT_EMPTY": "✨Plugin mesajı boş ola bilməz.✨",
+            "SETTED": "✨Plugin(`{plu}`) üçün mesajınız(`{msj}`) təsdiqləndi.✨"
         },
 
         "covid19": {
@@ -596,7 +596,7 @@
             "UPDATING": "`Bot yenilənir...`",
             "INVALID_APPNAME": "`[HEROKU UPDATER] Güncəlləmədən istifadə etmək üçün HEROKU_APPNAME dəyişənini təyin etməlisiniz.`",
             "INVALID_HEROKU": "{}\n`Heroku dəyişənləri səhv və ya müəyyənləşdirilmişdir.`",
-            "HEROKU_UPDATING": "Güncəlləmə Başladı UserBotunuz Daha Yaxşı Olacağına Əmin Ola Bilərsinin!",
+            "HEROKU_UPDATING": "Güncəlləmə Başladı UserBotunuz Daha Yaxşı Olacağına Əmin Ola Bilərsiniz!",
             "ERRORS": "Qarşılaşdığımız səhflər bunlardır",
             "SUCCESSFULLY": "`🌟Yeniləmə uğurla başa çatdı!🌟 \n3 dəqiqə sonra .alive yazıb yoxlaya bilərsiniz`"
         },
