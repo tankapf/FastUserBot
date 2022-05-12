@@ -2,7 +2,7 @@
     "__FASTJSON__": true,
     "LANGUAGE": "Azərbaycanca",
     "LANGCODE": "az",
-    "AUTHOR": "@FUBOwner",
+    "AUTHOR": "@FUBOwnerr",
     "STRINGS": {
         "__plugin": {
             "REPLY_FOR_PORT": "`Zəhmət olmasa Plugin-Port üçün bir fayla cavab yazın`",
@@ -30,7 +30,7 @@
             "ALREADY_DELETED": "`Plugin faylı artıq silinib.`",
             "NOT_FOUND_PLUGIN": "`Belə bir plugin bəlkə var idi, bəlkədə yox. Ancaq hazırda olmadığı dəqiqdir.`",
             "PLUG_DELETED": "`Plugin uğurla silindi!` **Tətbiq ediləcək əməliyyatlar üçün yenidən başlatmağınız lazımdır.**",
-            "FAST_PLUGIN_CAPTION": "Bu [ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋](https://t.me/TheFastUserBot) pluginidir."
+            "FAST_PLUGIN_CAPTION": "Bu [ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋](https://t.me/TheFastPlugin) pluginidir."
         },
         
         "__fast": {
@@ -364,9 +364,9 @@
             "GOODBYE_MFRS": "`Görüşənədək... *Windows XP söndürlmə səsi*`",
             "RESTARTING": "`Bot yenidən qoşulur..`",
             "SUPPORT_GROUP": "[Buradan](http://t.me/FastSupp) Dəstək qrupumuza çata bilərsiniz.",
-            "CREATOR": "Bu ᴜꜱᴇʀʙᴏᴛ [S A K O](https://t.me/developersh) tərəfindən hazırlanmışdır:🖤)",
+            "CREATOR": "Bu ᴜꜱᴇʀʙᴏᴛ [s ʜ ᴀ ᴋ ᴏ 🇦🇿⃤](https://t.me/fubownerr) tərəfindən hazırlanmışdır:)",
             "README": "[ꜰᴀꜱᴛ README.md](https://github.com/FastUserBot/FastUserBot/blob/main/README.md)",
-            "REPO": "[ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ 🔋 Repo](https://github.com/FastUserBot/FastUserBot)",
+            "REPO": "[𝙁𝙖𝙨𝙩𝙐𝙨𝙚𝙧𝘽𝙤𝙩 🌐 Repo](https://github.com/FastUserBot/FastUserBot)",
             "CHECK_LOGS": "`Tapılmış Mesaj üçün istifadəçi qeydlərini yoxlayın!`"
         },
 
