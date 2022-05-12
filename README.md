@@ -1,7 +1,7 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=xoş+gəldin+Fast+Reposuna!;👌+reponu+icazəsiz+əkmə+peyser!!;SUPPORT+ÜÇÜN+@KenandiBrat_010!)
 
 <div align="center">
-  <img src="https://telegra.ph//file/26e4673cd4b122be7b9b0.jpg" width="200" height="200">
+  <img src="https://telegra.ph//file/8288cea06ccd3c20b6273.jpg" width="200" height="200">
   <h1>𝙵𝙰𝚂𝚃 𝚄𝚂𝙴𝚁𝙱𝙾𝚃</h1>
 </div>
 <p align="center">
