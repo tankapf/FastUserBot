@@ -65,7 +65,7 @@ AFKSTR = [
 UNAPPROVED_MSG = ("`Hey,` {mention}`! Bu bir bot. Narahat olma.\n\n`"
                   "`Sahibim sənə PM atma icazəsi verməyib. `"
                   "`Zəhmət olmasa sahibimin aktiv olmağını gözləyin, o adətən PM'ləri qəbul edir.\n\n`"
-                  "`Bildiyim qədəri ilə o dəlilərə PM atma icazəsi vermir.`\n@TheFastUserBot `Quraraq sənində belə bir botun ola bilər :)`")
+                  "`Bildiyim qədəri ilə o dəlilərə PM atma icazəsi vermir.`\n@TheFastUserBot `Quraraq sənində belə bir botun ola bilər SAHİBİM set {last_seen_long} Əvvəl Akdiv İdi:)`")
 
 DB = connect("learning-data-root.check")
 CURSOR = DB.cursor()
