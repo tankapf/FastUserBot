@@ -331,7 +331,7 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    "@TheFastSup",
+                    "@fastuserbottt",
                     text="""ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ işlədin
 Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmayın, siz başqasının botunu idarə etməssiniz! Altdakı GitHub adresində bütün qurulum detayları var""",
                     buttons=[
