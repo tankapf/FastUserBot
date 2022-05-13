@@ -628,14 +628,14 @@
         "weather": {
             "NEED_API_KEY": "`Əvvəlcə` https://openweathermap.org/ `adresindən Bir API açarı almalısınız.`",
             "NO_CITY": "`WEATHER_DEFCITY Dəyişən adı ilə varsayılan olaraq bir şəhər təyin edirsiniz və ya əmri yazdığınız zaman hansı şəhərin havasını istədiyinizi göstərirsiz!`",
-            "INVALID_COUNTRY": "`Səhf ölkə.`",
-            "TEMP": "İstilik",
-            "MIN_TEMP": "Ən Aşağı İstilik",
-            "MAX_TEMP": "Ən Yüksək İstilik",
-            "HUMIDITY": "Nəm",
-            "WIND_SPEED": "Külək sürrəti",
-            "SUNRISE": "Gündoğumu",
-            "SUNSET": "Günbatımı"
+            "INVALID_COUNTRY": "`❌ Səhf ölkə.`",
+            "TEMP": "☀️ İstilik",
+            "MIN_TEMP": "🌥️ Ən Aşağı İstilik",
+            "MAX_TEMP": "☀️ Ən Yüksək İstilik",
+            "HUMIDITY": "🌦️ Nəm",
+            "WIND_SPEED": "🌪️ Külək sürrəti",
+            "SUNRISE": "🌅 Gündoğumu",
+            "SUNSET": "🌅 Günbatımı"
         },
 
         "whois": {
@@ -643,29 +643,29 @@
             "FAILED_GETTING_DATA": "`Bu istifadəçinin məlumatlarını ala bilmədim.`",
             "NO_PROFILE_PHOTO": "Şəxsin profil şəklini yükləyəməy üçün köməyə ehtiyac var.",
             "NO_DC_ID": "DC ID gətirə bilmədim",
-            "NO_FIRST_NAME": "Bu istifadəçinin adı yoxdur",
-            "NO_LAST_NAME": "Bu istifadəçinin soyadı yoxdur",
-            "NO_USERNAME": "Bu istifadəçinin istifadəçi adı yoxdur",
-            "NO_BIO": "Bu istifadəçinin biosu boşdur",
-            "USER_INFO": "İSTİFADƏÇİ BİLGİLƏRİ",
-            "NAME": "Ad",
-            "LASTNAME": "Soyad",
-            "NICKNAME": "İstifadəçi Adı",
-            "DC_ID": "Məlumat mərkəzi ID",
-            "PROFILE_PHOTO_COUNT": "Profil şəkillərinin sayı",
-            "IS_BOT": "Bot-durmu",
-            "IS_RESTRICTED": "Məhduddurmu",
-            "IS_VERIFIED": "Telegram tərəfindən təsdiqləndimi",
+            "NO_FIRST_NAME": "✨ Bu istifadəçinin adı yoxdur ✨",
+            "NO_LAST_NAME": "✨ Bu istifadəçinin soyadı yoxdur ✨",
+            "NO_USERNAME": "✨ Bu istifadəçinin istifadəçi adı yoxdur ✨",
+            "NO_BIO": "🌟 Bu istifadəçinin biosu boşdur 🌟",
+            "USER_INFO": "✅ İSTİFADƏÇİ BİLGİLƏRİ ✅",
+            "NAME": "👤 Ad",
+            "LASTNAME": "👤 Soyad",
+            "NICKNAME": "👤 İstifadəçi Adı",
+            "DC_ID": "📈 Məlumat mərkəzi ID",
+            "PROFILE_PHOTO_COUNT": "💠 Profil şəkillərinin sayı 💠",
+            "IS_BOT": "✅ Bot-durmu ✅",
+            "IS_RESTRICTED": "✅ Məhduddurmu ✅",
+            "IS_VERIFIED": "Telegram tərəfindən təsdiqləndimi⁉️",
             "BIO": "Biosu",
-            "COMMON_CHAT": "Bu istifadəçi ilə ortaq söhbətlər",
-            "LINK": "Profil üçün daimi əlaqə"
+            "COMMON_CHAT": "🤔 Bu istifadəçi ilə ortaq söhbətlər 🤔",
+            "LINK": "📜 Profil üçün daimi əlaqə 📜"
         },
         "www": {
-            "SPEED": "`Sürət testi hesablanır...`",
-            "STARTED_TIME": "Başlama Tarixi: ",
-            "DOWNLOAD_SPEED": "Yükləmə Sürrəti: ",
-            "UPLOAD_SPEED": "Upload Sürrəti: ",
-            "ISP": "İnternet xidməti təminatçısı: "
+            "SPEED": "`✨ Sürət testi hesablanır...`",
+            "STARTED_TIME": "✅ Başlama Tarixi: ",
+            "DOWNLOAD_SPEED": "📥 Yükləmə Sürrəti: ",
+            "UPLOAD_SPEED": "📤 Upload Sürrəti: ",
+            "ISP": "✅ İnternet xidməti təminatçısı: ✅"
         }
     }
 }
