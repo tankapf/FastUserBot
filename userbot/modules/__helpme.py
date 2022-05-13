@@ -17,13 +17,13 @@ LANG = get_value("__helpme")
 
 # ████████████████████████████████ #
 
-@register(outgoing=True, pattern="^.komek|^.help")
+@register(outgoing=True, pattern="^.kom[eə]k|^.help")
 async def yardim(event):
     tgbotusername = BOT_USERNAME
     if tgbotusername is not None:
         results = await event.client.inline_query(
             tgbotusername,
-            "@Xjdjsjsjsjssssbot"
+            "@fastuserbottt"
         )
         await results[0].click(
             event.chat_id,
