@@ -588,7 +588,7 @@
             "GIT_ERROR": "Git xətası!",
             "NOT_GIT": "qovluğlu bir git reposu kimi görünmür. \nAncaq botu .update now əmri ilə zorla yeniləməklə bu problemi həll edə bilərsiniz.",
             "INVALID_BRANCH": "**[UPDATER]:**` Düşünürəm ki, Fast botunuzu dəyişdirdiniz və öz filialınızdan istifadə edirsiniz.\nBu vəziyyət yenilənməni edənin başını qarışdırır,\nGüncəllənmə haradan çəkiləcək?\nXahiş edirəm rəsmi repodan FastUserBot istifadə edin.`",
-            "UPDATE": "\n`FastUserBot'un` **☑️Ən güncəl versiyadadır!☑️** `📱Branch📱:` **{}**\n",
+            "UPDATE": "\n`🏷️ Botunuz` **Son versiyadadır! ✅** `💡 Fast:` **{}**\n",
             "WAS_UPDATE": "**{} üçün yeni güncəlləmə mövcuddur!\n\nDəyişikliklər:**\n`{}`",
             "BIG": "`Dəyişikliklərin siyahısı çox böyükdür, ona bir fayl kimi baxmalısınız.`",
             "DO_UPDATE": "`Güncəllənməni etmək üçün \".update now\" komandasını istifadə edin.`",
@@ -596,9 +596,9 @@
             "UPDATING": "`Bot yenilənir 🌐...`",
             "INVALID_APPNAME": "`[HEROKU UPDATER] Güncəlləmədən istifadə etmək üçün HEROKU_APPNAME dəyişənini təyin etməlisiniz.`",
             "INVALID_HEROKU": "{}\n`Heroku dəyişənləri səhv və ya müəyyənləşdirilmişdir.`",
-            "HEROKU_UPDATING": "Güncəlləmə Başladı UserBotunuz Daha Yaxşı Olacağına Əmin Ola Bilərsiniz!",
+            "HEROKU_UPDATING": "✅ Güncəlləmə Başladı\n\n⌛ UserBotunuz Daha Yaxşı Olacağına Əmin Ola Bilərsiniz!",
             "ERRORS": "Qarşılaşdığımız səhflər bunlardır",
-            "SUCCESSFULLY": "`🌟Yeniləmə uğurla başa çatdı!🌟 \n3 dəqiqə sonra .alive yazıb yoxlaya bilərsiniz`"
+            "SUCCESSFULLY": "`✅ Yeniləmə uğurla başa çatdı!\n\n⌛ 3 dəqiqə sonra .alive yazıb yoxlayın.\n\n✨ Powered by: FastUserBot 🌐`"
         },
 
         "upload_download": {
