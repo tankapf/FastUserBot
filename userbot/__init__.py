@@ -331,14 +331,14 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    "@fastuserbottt",
+                    "@TheFastSup",
                     text="""ꜰᴀꜱᴛ ᴜꜱᴇʀʙᴏᴛ işlədin
 Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmayın, siz başqasının botunu idarə etməssiniz! Altdakı GitHub adresində bütün qurulum detayları var""",
                     buttons=[
-                        [custom.Button.url("Kanal", "https://t.me/TheFastResmi"), custom.Button.url(
-                            "Qrup", "https://t.me/TheFastSup")],
+                        [custom.Button.url("Kanal🇦🇿", "https://t.me/TheFastResmi"), custom.Button.url(
+                            "Qrup🧑‍🔧", "https://t.me/TheFastSup")],
                         [custom.Button.url(
-                            "GitHub", "https://github.com/fastuserbot/fastuserbot")]
+                            "Repo🌐", "https://github.com/fastuserbot/fastuserbot")]
                     ],
                     link_preview=False
                 )
