@@ -1138,7 +1138,7 @@ async def kurucu(event):
     await asyncio.sleep(6)
 
 
-CmdHelp('modullar').add_command(
+CmdHelp('fmodul').add_command(
     'usta', None, ' Fast Usta'
 ).add_command(
     'hav', None, ' İt hazırlayar'
