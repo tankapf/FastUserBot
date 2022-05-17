@@ -34,11 +34,11 @@ NO_SQL = "`SQL mode! aktiv deyil`"
 
 @register(outgoing=True, pattern=r"^\.tmute(?: |$)(.*)")
 async def sako(fast):
-    chat = await brend.get_chat()
+    chat = await fast.get_chat()
     admin = chat.admin_rights
     creator = chat.creator
     if not admin and not creator:
-        await brend.edit(NO_ADMIN)
+        await fast.edit(NO_ADMIN)
         return
     user, reason = await get_user_from_event(fast)
     if user:
@@ -131,7 +131,7 @@ async def sako(fast):
             cattime = reason[0]
             reason = None
     else:
-        await brend.edit("**Vaxt bildirmədiniz, istifadəyə baxmaq üçün** `.fast tadmin` **yazın**")
+        await fast.edit("**Vaxt bildirmədiniz, istifadəyə baxmaq üçün** `.fast tadmin` **yazın**")
         return
     self_user = await fast.client.get_me()
     ctime = await extract_time(fast, cattime)
