@@ -20,35 +20,6 @@ import random
 from telethon import events, functions, types
 import asyncio
 
-PENIS_TEMPLATE = """
-😎😎
-😎😎😎
-  😎😎😎
-    😎😎😎
-     😎😎😎
-       😎😎😎
-        😎😎😎
-         😎😎😎
-          😎😎😎
-          😎😎😎
-      😎😎😎😎
- 😎😎😎😎😎😎
- 😎😎😎  😎😎😎
-    😎😎       😎😎
-"""
-
-@register(outgoing=True, pattern=r"^\.(?:sik|dick)\s?(.)?")
-async def emoji_yrk(e):
-    emoji = e.pattern_match.group(1)
-
-    await e.edit("Ala baxx...")
-    message = PENIS_TEMPLATE
-    if emoji:
-        message = message.replace('😎', emoji)
-
-    await e.edit(message)
-
-
 @register(outgoing=True, pattern="^.tata (.*)")
 async def tata(event):
     if event.fwd_from:
@@ -207,7 +178,7 @@ ALPEN_TEMPLATE = """
 ╠╬╬╬╣
 ╠╬╬╬╣ I ♥
 ╠╬╬╬╣ Alpen Gold
-╚╩╩╩╝ DTÖUserBot
+╚╩╩╩╝ @TheFastSup
 """
 
 @register(outgoing=True, pattern=r"^\.(?:alpen)\s?(.)?")
@@ -293,7 +264,7 @@ async def port_hack(event):
             "`Heklənir... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Heklənir... 84%\n█████████████████████▒▒▒▒ `",
             "`Heklənir... 100%\n█████████HEKLƏNDİ███████████ `",
-            "`Profiliniz hekləndi..\n\n50₼ verməsən məlumatlarıv yayacam..`"
+            "`Profiliniz @TheFastSup tərəfindən hekləndi..\n\n50₼ verməsən məlumatlarıv yayacam..`"
         ]
 
     for i in animation_ttl:
@@ -457,7 +428,7 @@ async def port_snake(event):
 USTA_TEMPLATE = """
 _/﹋\_
 (҂`_´)
-<,︻╦╤─ ҉ - - @umudmmmdov1
+<,︻╦╤─ ҉ - - @fubownerr
 _/﹋\_
 """
 
@@ -465,7 +436,7 @@ _/﹋\_
 async def emoji_nah(e):
     emoji = e.pattern_match.group(1)
 
-    await e.edit("Ümüd USTAAA...")
+    await e.edit("Fast USTAAA...")
     message = USTA_TEMPLATE
     if emoji:
         message = message.replace('🍆', emoji)
@@ -756,7 +727,7 @@ async def kill(event):
             "------------------>",
             "------>;(^。^)ノ",
             "(￣ー￣) ÖLDÜN",
-            "`Başın sağolsun! Başından vurdum 😈.😈.😈.😈.😈.😈.😈......`\n '#DTÖUserBot'\n",
+            "`Başın sağolsun! Başından vurdum 😈.😈.😈.😈.😈.😈.😈......`\n '#FastUserBot'\n",
         ]
 
     for i in animation_ttl:
@@ -773,7 +744,7 @@ async def dump(message):
             raise IndexError
         inp = ' '.join(obj)
     except IndexError:
-        inp = "🥞 🎂 🍫"
+        inp = "🦴 🦠 🩹"
     u, t, g, o, s, n = inp.split(), '🗑', '<(^_^ <)', '(> ^_^)>', '⠀ ', '\n'
     h = [(u[0], u[1], u[2]), (u[0], u[1], ''), (u[0], '', '')]
     for something in reversed([y for y in ([''.join(x) for x in (
@@ -1090,17 +1061,17 @@ async def music(event):
     await event.edit("FastUserBot Music Player açılır...")
 
     animation_chars = [
-            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[DTÖUserBot Music Player](tg://user?id=916234223)\n\n⠀⠀⠀⠀**Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:51** ▱▱▱▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `▶️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[DTÖUserBot Music Player](tg://user?id=916234223)\n\n⠀⠀⠀⠀**Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:52** ▰▱▱▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[DTÖUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:53** ▰▰▱▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[DTÖUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:54** ▰▰▰▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[DTÖUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:55** ▰▰▰▰▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[DTÖUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:56** ▰▰▰▰▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[DTÖUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:57** ▰▰▰▰▰▰▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[DTÖUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:58** ▰▰▰▰▰▰▰▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[DTÖUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:59** ▰▰▰▰▰▰▰▰▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[DTÖUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**05:00** ▰▰▰▰▰▰▰▰▰▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
-            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[DTÖUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀  ⠀**Oxunur: MəşədiBaba - Götürrəm səni**\n\n**05:01** ▰▰▰▰▰▰▰▰▰▰ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏺️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**"
+            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[FastUserBot Music Player](tg://user?id=916234223)\n\n⠀⠀⠀⠀**Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:51** ▱▱▱▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `▶️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[FastUserBot Music Player](tg://user?id=916234223)\n\n⠀⠀⠀⠀**Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:52** ▰▱▱▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[FastUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:53** ▰▰▱▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤⬤ 81% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[FastUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:54** ▰▰▰▱▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[FastUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:55** ▰▰▰▰▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[FastUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:56** ▰▰▰▰▱▱▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[FastUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:57** ▰▰▰▰▰▰▱▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[FastUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:58** ▰▰▰▰▰▰▰▱▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[FastUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**04:59** ▰▰▰▰▰▰▰▰▱▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[FastUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀⠀  **Oxunur: MəşədiBaba - Götürrəm səni**\n\n**05:00** ▰▰▰▰▰▰▰▰▰▱ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏸️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**",
+            "⬤⬤◯ 80% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`✖️`\n\n⠀⠀⠀⠀⠀[FastUserBot  Music Player](tg://user?id=916234223)\n\n⠀⠀  ⠀**Oxunur: MəşədiBaba - Götürrəm səni**\n\n**05:01** ▰▰▰▰▰▰▰▰▰▰ **05:01**\n\n⠀⠀⠀⠀⠀`🔂` `⏮️` `⏪️` `⏺️` `⏩️` `⏭️`\n\n**Növbəti Musiqi:** __Məşədi Baba - Ruzigar içində__\n\n⠀⠀⠀⠀**⠀Device: Nokia 1100**"
         ]
 
     for i in animation_ttl:
@@ -1168,31 +1139,27 @@ async def kurucu(event):
 
 
 CmdHelp('modullar').add_command(
-    'usta', None, ' Ümüd Ustaaaa ❤️'
+    'usta', None, ' Fast Usta'
 ).add_command(
-    'hav', None, ' İt yaradar'
+    'hav', None, ' İt hazırlayar'
 ).add_command(
-    'pisik', None, ' Pişik yaradar'
+    'pisik', None, ' Pişik hazırlayar'
 ).add_command(
-    'bayqus', None, ' Bayquş yaradar'
+    'bayqus', None, ' Bayquş hazırlayar'
 ).add_command(
-    'nah', None, ' Nah göstərər'
+    'bye', None, ' Getdiyinizi xəbər edin'
 ).add_command(
-    'bye', None, ' Getdiyinizi bəlli edin'
+    'slm', None, ' Gəldiyinizi xəbər edin'
 ).add_command(
-    'slm', None, ' Gəldiyinizi bəlli edin'
-).add_command(
-    'hek', None, ' Heçkırlıq edinnn 😎'
+    'hek', None, ' Hack ilə dostunuzu qorxudun'
 ).add_command(
     'plane', None, ' Babat pluginə oxşuyur'
 ).add_command(
     'ilan', None, ' Animasiyalı ilan tıssss'
-).add_command(
-    'dick', None, ' 18+ Təhlükəli yoxlanayın'
  ).add_command(
     'polis', None, ' Burada polis var'
 ).add_command(
-    'alpen', None, ' Alpen Gold ❤️ '
+    'alpen', None, ' Alpen Gold Yarat'
 ).add_command(
     'love yazı', None, ' Sevginizi göstərin'
 ).add_command(
@@ -1210,7 +1177,7 @@ CmdHelp('modullar').add_command(
 ).add_command(
     'kebe', None, ' Allahın evi KƏBƏ'
 ).add_command(
-    'kiskis', None, ' Pişiyi çağırın kıs kıs'
+    'kiskis', None, ' Pişiyi çağırın'
 ).add_command(
     'beyin', None, ' Beyinsiz dostlarınıza atın'
 ).add_command(
@@ -1242,7 +1209,7 @@ CmdHelp('modullar').add_command(
 ).add_command(
     'hello', None, ' Balaca Hİ plugini'
 ).add_command(
-    'baba', None, ' DTÖUserBot Music Player'
+    'baba', None, ' FastUserBot Music Player'
  ).add_command(
      'dump', None, ' Yoldan zibil topluyar'
  ).add_command(
