@@ -26,10 +26,10 @@ else:
     BOTLOG = True
     BOTLOG_CHATID = BOTLOG_CHATID
 
-# =================== CONSTANT ===================
-NO_ADMIN = "`Admin deyiləm❌`"
-NO_PERM = "`Kifayət qədər admin icazəm yoxdu❌`"
-NO_SQL = "`SQL mode! aktiv deyil`"
+# =================== Məlumat ===================
+NO_ADMIN = "`Adminlik hüququm yoxdur`"
+NO_PERM = "`Admin Deyiləm`"
+NO_SQL = "`SQL mode! aktiv deyil)`"
 
 
 @register(outgoing=True, pattern=r"^\.vmute(?: |$)(.*)")
