@@ -32,7 +32,7 @@ async def get_full_user(event):
             user_obj = await event.client.get_entity(user)
         except Exception as err:
             return await event.edit(
-                "Bir xəta baş verdi:\nBunu @UseratorSUP’a bildirin", str(err)
+                "Bir xəta baş verdi:\nBunu @TheFastSUP’a bildirin", str(err)
             )
     return user_obj, extra
 
@@ -97,7 +97,7 @@ async def gpromote(event):
             try:
                 await event.client(EditAdminRequest(x, user, rgt, rank))
                 i += 1
-                await event.edit(f"**Admin əlavə etmə səlahiyyətin olduğu bütün chatlarda icazə verilir..:** `{i}`")
+                await event.edit(f"**Admin əlavə etmə səlahiyyətin olduğu bütün qruplar'da icazə verilir..:** `{i}`")
             except:
                 pass
     else:
@@ -152,7 +152,7 @@ async def gdemote(event):
             try:
                 await event.client(EditAdminRequest(x, user, rgt, rank))
                 i += 1
-                await event.edit(f"**Admin olduğun qruplardan icazə aşağı salındır**: `{i}`")
+                await event.edit(f"**Admin olduğun qruplardan icazəsi aşağı salındı**: `{i}`")
             except:
                 pass
     else:
