@@ -32,7 +32,7 @@ NO_PERM = "`Kifayət qədər admin icazəm yoxdu❌`"
 NO_SQL = "`SQL mode! aktiv deyil`"
 
 
-@register(outgoing=True, pattern=r"^\.tmute(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.vmute(?: |$)(.*)")
 async def sako(fast):
     chat = await fast.get_chat()
     admin = chat.admin_rights
@@ -55,17 +55,17 @@ async def sako(fast):
             cattime = reason[0]
             reason = None
     else:
-        await fast.edit("**Vaxt bildirmədiniz❌, istifadəyə baxmaq üçün** `.fast tadmin` **yazın**")
+        await fast.edit("**❌ Mute vermək üçün vaxd bildirin\n\n✨ İşlətməsinə baxmaq üçün** `.fast fadmin` **yaz**")
         return
     self_user = await fast.client.get_me()
     ctime = await extract_time(fast, cattime)
     if not ctime:
         await fast.edit(
-            f"**Vaxt bildirmədiniz❌, istifadəyə baxmaq üçün** `.fast tadmin` **yazın**"
+            f"**❌ Mute vermək üçün vaxd bildirin\n\n✨ İşlətməsinə baxmaq üçün** `.fast fadmin **yaz**"
         )
         return
     if user.id == self_user.id:
-        await fast.edit(f"**Özümü susdura bilmərəm❌**")
+        await fast.edit(f"**❌ Özümü susdurmaq üçün yaradılmamışam:)))**")
         return
     try:
         await fast.client(
@@ -77,38 +77,38 @@ async def sako(fast):
         )
         if reason:
             await fast.edit(
-                f"**{user.first_name} Susduruldu🔇\n\nQrup💭: {fast.chat.title}\n**"
-                f"**Vaxt⌚️ {cattime}\n**"
-                f"**Səbəb⚠️: {reason}**"
+                f"**{user.first_name}✅ Səssizə Alındı\n💠 Qrup Adı: {fast.chat.title}\n**"
+                f"**⏳ Müddət {cattime}\n**"
+                f"**🏷️ Səbəbi: {reason}**"
             )
             if BOTLOG:
                 await fast.client.send_message(
                     BOTLOG_CHATID,
                     "#TMUTE\n"
-                    f"İstifadəçi👤: [{user.first_name}](tg://user?id={user.id})\n"
-                    f"Qrup💭: {fast.chat.title}(`{fast.chat_id}`)\n"
-                    f"**Müddət⌚️ : {cattime}**\n"
-                    f"**Səbəb⚠️ : {reason}**",
+                    f"Üzv👤: [{user.first_name}](tg://user?id={user.id})\n"
+                    f"💠 Qrup: {fast.chat.title}(`{fast.chat_id}`)\n"
+                    f"**⏳ Müddət : {cattime}**\n"
+                    f"**🏷️ Səbəb : {reason}**",
                 )
         else:
             await fast.edit(
-                f"**{user.first_name}Susduruldu🔇\nQrup💭: {fast.chat.title}**\n"
-                f"**Vaxt⌚️ {cattime}**\n"
+                f"**{user.first_name}✅ Səssizə Alındı\n💠 Qrup Adı: {fast.chat.title}**\n"
+                f"**⏳ Müddət {cattime}**\n"
             )
             if BOTLOG:
                 await fast.client.send_message(
                     BOTLOG_CHATID,
                     "#TMUTE\n"
-                    f"**İstifadəçi👤 :[{user.first_name}](tg://user?id={user.id})**\n"
-                    f"**Qrup💭 : {fast.chat.title}({fast.chat_id})**\n"
-                    f"**Müddət⌚️ : {cattime}**",
+                    f"**Üzv👤 :[{user.first_name}](tg://user?id={user.id})**\n"
+                    f"**💠 Qrup : {fast.chat.title}({fast.chat_id})**\n"
+                    f"**⏳ Müddət : {cattime}**",
                 )
                 
     except UserIdInvalidError:
-        return await fast.edit("`Xətayla qarşılaşdım`")
+        return await fast.edit("`Xəta ❌`")
 
 
-@register(outgoing=True, pattern=r"^\.tban(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.vban(?: |$)(.*)")
 async def sako(fast):
     chat = await fast.get_chat()
     admin = chat.admin_rights
@@ -131,19 +131,19 @@ async def sako(fast):
             cattime = reason[0]
             reason = None
     else:
-        await fast.edit("**Vaxt bildirmədiniz, istifadəyə baxmaq üçün** `.fast tadmin` **yazın**")
+        await fast.edit("**❌ Ban vermək üçün vaxd bildirin\n\n✨ İşlətməsinə baxmaq üçün** `.fast fadmin`**yaz**")
         return
     self_user = await fast.client.get_me()
     ctime = await extract_time(fast, cattime)
     if not ctime:
         await fast.edit(
-            f"**Yanlış vaxt göstərdiniz❌.\n\ndəqiqə - m\nsaat - h\n gün - d\nhəftə - w**"
+            f"**Səhv vaxd bildirdiniz❌.\n\n⏳ dəqiqə - m\n🕐 saat - h\n🌅 gün - d\n🤯 həftə - w**"
         )
         return
     if user.id == self_user.id:
-        await fast.edit(f"**Özümü susdura bilmərəm❌**")
+        await fast.edit(f"**❌ Özümü susdurmaq üçün yaradılmamışam:)))**")
         return
-    await fast.edit("`Müvəqqəti qadağan edilir....`")
+    await fast.edit("`✅ Müvəqqəti Qadağa Prosesi Başladı...`")
     try:
         await fast.client(
             EditBannedRequest(
@@ -166,31 +166,31 @@ async def sako(fast):
         return
     if reason:
         await fast.edit(
-            f"**{user.first_name} qadağan edildi❌\n\n Qrup {fast.chat.title}**\n"
-            f"**Vaxt⌚️ {cattime}**\n"
-            f"**Səbəb⚠️ `{reason}**"
+            f"**{user.first_name}✅ Banlandı\n\n💠 Qrup Adı: {fast.chat.title}**\n"
+            f"**⏳ Müddət {cattime}**\n"
+            f"**🏷️ Səbəbi `{reason}**"
         )
         if BOTLOG:
             await fast.client.send_message(
                 BOTLOG_CHATID,
                 "#TBAN\n"
-                f"**İstifadəçi👤 : [{user.first_name}](tg://user?id={user.id})**\n"
-                f"**Qrup💭 : {fast.chat.title}({fast.chat_id})**\n"
-                f"**Vaxt⌚️ :  {cattime}**\n"
-                f"**Səbəb⚠️ {reason}**",
+                f"**Üzv👤 : [{user.first_name}](tg://user?id={user.id})**\n"
+                f"**💠 Qrup Adı : {fast.chat.title}({fast.chat_id})**\n"
+                f"**⏳ Müddət :  {cattime}**\n"
+                f"**🏷️ Səbəbi {reason}**",
             )
     else:
         await fast.edit(
-            f"{user.first_name} qadağan edildi❌\n\n Qrup💭: {fast.chat.title}\n"
+            f"{user.first_name}✅ Banlandı\n\n💠 Qrup Adı: {fast.chat.title}\n"
             f"**Vaxt⌚️ {cattime}**\n"
         )
         if BOTLOG:
             await fast.client.send_message(
                 BOTLOG_CHATID,
                 "#TBAN\n"
-                f"**İstifadəçi👤 : [{user.first_name}](tg://user?id={user.id})**\n"
-                f"**Qrup💭 : {fast.chat.title}(`{fast.chat_id}`)**\n"
-                f"**Vaxt⌚️ : {cattime}**",
+                f"**Üzv👤 : [{user.first_name}](tg://user?id={user.id})**\n"
+                f"**💠 Qrup Adı : {fast.chat.title}(`{fast.chat_id}`)**\n"
+                f"**⏳ Müddət : {cattime}**",
             )
 
 
@@ -264,8 +264,8 @@ async def extract_time(cat, time_val):
     return ""
 
 CmdHelp('tadmin').add_command(
-    'tmute', '<vaxt>''<səbəb>', 'İstifadəçini müvəqqəti susdurat..'
+    'vmute', '<⏳Vaxtı>''<🏷️Səbəbi>', 'İstifadəçini Təyin Olunmuş Vaxda Qədər Müvvəqəti Susdurur Edir'
 ).add_command(
-    'tban', '<vaxt>''<səbəb>', 'İstifadəçini müvəqqəti olaraq ban edər'
+    'vban', '<⏳Vaxtı>''<🏷️Səbəbi>', 'İstifadəçini Təyin Olunmuş Vaxda Qədər Müvvəqəti Ban Edir'
 ).add_info('**⚠️dəqiqə - m\nsaat - h\n gün - d\nhəftə - ⚠️**'
 ).add()
