@@ -263,7 +263,7 @@ async def extract_time(cat, time_val):
     )
     return ""
 
-CmdHelp('tadmin').add_command(
+CmdHelp('fadmin').add_command(
     'vmute', '<⏳Vaxtı>''<🏷️Səbəbi>', 'İstifadəçini Təyin Olunmuş Vaxda Qədər Müvvəqəti Susdurur Edir'
 ).add_command(
     'vban', '<⏳Vaxtı>''<🏷️Səbəbi>', 'İstifadəçini Təyin Olunmuş Vaxda Qədər Müvvəqəti Ban Edir'
