@@ -1,4 +1,4 @@
-# U S Σ R Δ T O R / Coshgyn
+# FastUserBot
 
 from telethon.tl.functions.channels import EditAdminRequest
 from telethon.tl.types import ChatAdminRights, MessageEntityMentionName
@@ -158,7 +158,7 @@ async def gdemote(event):
     else:
         await event.edit(f"**Bir istifadəçiyə cavab verin**")
     return await event.edit(
-        f"**Qlobal olaraq icazə aşağı salındı [{user.first_name}](tg://user?id={user.id})\n**{i} chat'da**"
+        f"**Qlobal olaraq icazə aşağı salındı [{user.first_name}](tg://user?id={user.id})\n**{i} qrup'da**"
     )
 
 CmdHelp('gadmin').add_command(
