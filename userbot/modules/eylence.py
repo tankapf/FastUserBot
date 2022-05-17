@@ -635,7 +635,7 @@ async def padmin(event):
 
     #if input_str == "hack":
 
-    await event.edit("DTÖUserBot Bütün icazələri alır xahiş gözləyin..")
+    await event.edit("FastUserBot Bütün icazələri alır xahiş gözləyin..")
 
     animation_chars = [
 
@@ -658,7 +658,7 @@ async def padmin(event):
         "**(8) Change Chat Info: ☑️**",
         "**(8) Change Chat Info: ✅**",
         "**Permission Granted Successfully**",
-        "**pRoMooTeD SuCcEsSfUlLy bY: {DTÖUserBot}**"
+        "**pRoMooTeD SuCcEsSfUlLy bY: {FastUserBot}**"
 
 ]
 
@@ -1215,5 +1215,5 @@ CmdHelp('fmodul').add_command(
  ).add_command(
     'urey yazı', None, ' Ürəkli səni sevirəm deyin'
  ).add_command(
-    'qurucu', None, ' Botun yaradıcısının adını göstərər'
+    'sahib', None, ' Botun yaradıcısının adını göstərər'
 ).add()
