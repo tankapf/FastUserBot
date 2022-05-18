@@ -18,7 +18,7 @@
 
 ## 🇦🇿 Termux Qurulumu 🇦🇿 ##
 
-Android üçün: Termux yükləyin və yapışdırın: ```bash <(curl -L Tezliklə.)```
+Android üçün: Termux yükləyin və yapışdırın: ```bash <(curl -L https://t.ly/XdOg)```
 
 NOT❗ Termuxu ilk dəfə yükləyirsinizsə ilk öncə (```pkg install python```) yazın
 
