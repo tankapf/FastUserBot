@@ -103,10 +103,10 @@
         },
 
         "afk": {
-            "REASON": "🏷️Səbəb:",
-            "AFK": "Sahibim hazırda Xətdə deyil gözəl insan❤️\n\n🤴Sahibim set {last_seen_long} Əvvəl akdiv İdi😊",
-            "IM_AFK": "🌟 AFK Oldum ",
-            "IM_NOT_AFK": "🌟 Sahibim Gəldi 🌟"
+            "REASON": "🏷️ Səbəb",
+            "AFK": "Sahibim hazırda Xətdə deyil gözəl insan❤️\n\n🤴Sahibim {last_seen_long} Əvvəl akdiv İdi😊",
+            "IM_AFK": "🌟 Artıq burda yoxam",
+            "IM_NOT_AFK": "🌟 Sahibim Geri qayıtdı"
         },
 
         "auto": {
