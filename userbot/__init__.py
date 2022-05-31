@@ -290,6 +290,7 @@ with bot:
             bot(JoinChannelRequest("@TheFastPlugin"))
             bot(JoinChannelRequest("@TheFastChatt"))
             bot(JoinChannelRequest("@TheFastResmi"))
+            bot(JoinChannelRequest("@MentalGameResmi"))
         except:
             pass
 
