@@ -16,7 +16,7 @@
             "PLIST_CHECKING": "`Pluginler çağırılır...`",
             "PLIST": "**🌐 Hazırda Yüklənən Pluginlər🌐**",
             "TEMP_PLUGIN": "`Pluginleriniz Həmişəlik olaraq yüklənmir, buna görə bir siyahı gətirə bilmirəm.`",
-            "REPLY_TO_FILE": "`📖 Yüklənəcək modul faylına cavab yazın.`",
+            "REPLY_TO_FILE": "`📥 Yüklənəcək modul faylına cavab yazın.`",
             "NOT_FOUND_PLUGIN_CHANNEL": "`Pluginlərin həmişəlik olması üçün Id nizamlamamısınız. Pluginləriniz yenidən başladılan zaman silinə bilər!`",
             "PLUGIN_BUGGED": "`❌ Yükləmə uğurlu deyil!\n\n❌ Plugində xəta aşkar edildi.\n\nXəta: `",
             "PLUGIN_DESC": "Bu plugin qırağdan botunuz üçün yüklənmişdir. İstifadəsi:",
