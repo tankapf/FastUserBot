@@ -156,7 +156,7 @@ try:
 
     # PLUGIN MESAJLARINI AYARLAYAQ
     PLUGIN_MESAJLAR = {}
-    ORJ_PLUGIN_MESAJLAR = {"alive": "ғᴀsᴛᴜs彡ʀʙᴏᴛ ᴀ ᴄ ᴛ ɪ̇ ᴠ ᴇ..⚡", "afk": f"`{str(choice(AFKSTR))}`", "kickme": "`Bye Bye Mən getdim :)`", "pm": UNAPPROVED_MSG, "dızcı": str(choice(DIZCILIK_STR)), "ban": "{mention}`, banlandı!`", "mute": "{mention}`, səssizləşdirildi!`", "approve": "{mention} `mənə mesaj yazmağın üçün icazə verildi`", "disapprove": "{mention} `artıq mənə yaza bilməssən!`", "block": "{mention}`Bloklandın!🥰`", "restart": "`🇦🇿𝙁𝘼𝙎𝙏 𝙐𝙎𝙀𝙍𝘽𝙊𝙏🇦🇿 Yenidən Başladılır...`"}
+    ORJ_PLUGIN_MESAJLAR = {"alive": "Salam {mention} ғᴀsᴛᴜs彡ʀʙᴏᴛ ᴀ ᴄ ᴛ ɪ̇ ᴠ ᴇ..⚡", "afk": f"`{str(choice(AFKSTR))}`", "kickme": "`Bye Bye Mən getdim :)`", "pm": UNAPPROVED_MSG, "dızcı": str(choice(DIZCILIK_STR)), "ban": "{mention}`, banlandı!`", "mute": "{mention}`, səssizləşdirildi!`", "approve": "{mention} `mənə mesaj yazmağın üçün icazə verildi`", "disapprove": "{mention} `artıq mənə yaza bilməssən!`", "block": "{mention}`Bloklandın!🥰`", "restart": "`🇦🇿𝙁𝘼𝙎𝙏 𝙐𝙎𝙀𝙍𝘽𝙊𝙏🇦🇿 Yenidən Başladılır...`"}
 
     PLUGIN_MESAJLAR_TURLER = ["alive", "afk", "kickme", "pm", "dızcı", "ban", "mute", "approve", "disapprove", "block", "restart"]
     for mesaj in PLUGIN_MESAJLAR_TURLER:
